@@ -2,6 +2,11 @@
 
 English | [繁體中文](https://github.com/francistse/beyblade-x-resonance-quiz/blob/main/README_TC.md)
 
+<p align="center">
+  <img src="docs/sample-result.png" alt="Sample quiz result: matched Beyblade, resonance percentage, awakening keyword, and attack / stamina / defense radar chart" width="340" />
+</p>
+<p align="center"><em>Sample result screen (Traditional Chinese UI)</em></p>
+
 A personality quiz that matches you with your resonant Beyblade X through a vector-based matching algorithm. Answer 12 questions, discover your battle type, and find the Beyblade that resonates with your soul.
 
 🎨 This project was developed with TRAE IDE — making web development easier and more enjoyable.

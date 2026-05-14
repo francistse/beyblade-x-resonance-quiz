@@ -78,7 +78,7 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-32 pt-6 px-4">
+    <div className="min-h-screen bg-gray-50 pb-24 pt-6 px-4">
       <div className="max-w-lg mx-auto">
         <ShareCard ref={shareCardRef} result={result} />
 
@@ -100,8 +100,8 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
         )}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-t from-black/90 via-black/80 to-transparent pt-8 pb-4 px-4">
-        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center gap-4">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-t from-black/90 via-black/75 to-transparent pt-4 pb-[max(0.5rem,env(safe-area-inset-bottom))] px-3">
+        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center gap-2">
           <ShareButtons
             onDownload={handleDownload}
             shareUrl={shareUrl}
@@ -111,22 +111,22 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
           <button
             type="button"
             onClick={onRetry}
-            className="px-5 py-2.5 rounded-lg bg-white/10 border border-white/30 text-white font-bold text-sm hover:bg-white/20 transition-all hover:scale-105 active:scale-95"
+            className="px-4 py-2 rounded-lg bg-white/10 border border-white/30 text-white font-bold text-xs sm:text-sm hover:bg-white/20 transition-all active:scale-[0.98]"
           >
             🔄 {t('common.retry')}
           </button>
         </div>
 
         {downloadStatus === 'success' && (
-          <div className="mt-4 text-center">
-            <span className="px-4 py-2 rounded-lg bg-green-500/90 text-white font-bold text-sm shadow-lg animate-bounce">
+          <div className="mt-2 text-center">
+            <span className="inline-block px-3 py-1 rounded-md bg-green-500/90 text-white font-semibold text-xs shadow-md animate-bounce">
               ✅ {t('result.downloadSuccess')}
             </span>
           </div>
         )}
         {downloadStatus === 'error' && (
-          <div className="mt-4 text-center">
-            <span className="px-4 py-2 rounded-lg bg-red-500/90 text-white font-bold text-sm shadow-lg">
+          <div className="mt-2 text-center">
+            <span className="inline-block px-3 py-1 rounded-md bg-red-500/90 text-white font-semibold text-xs shadow-md">
               ❌ {t('result.downloadError')}
             </span>
           </div>

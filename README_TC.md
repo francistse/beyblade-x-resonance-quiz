@@ -2,6 +2,11 @@
 
 [English](https://github.com/francistse/beyblade-x-resonance-quiz/blob/main/README.md) | 繁體中文
 
+<p align="center">
+  <img src="docs/sample-result.png" alt="範例測驗結果：配對陀螺、共鳴百分比、覺醒關鍵字與攻擊／持久／防禦雷達圖" width="340" />
+</p>
+<p align="center"><em>範例結果畫面</em></p>
+
 透過向量匹配演算法，找出與你靈魂共鳴的 Beyblade X。回答 12 道問題，發掘你的戰鬥類型，找到屬於你的共鳴陀螺。
 
 🎨 此專案使用 TRAE IDE 開發 — 讓網頁開發更輕鬆愉快。
