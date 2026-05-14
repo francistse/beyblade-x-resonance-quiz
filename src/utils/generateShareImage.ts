@@ -1,32 +1,59 @@
 import html2canvas from 'html2canvas';
 
+/** html2canvas cannot parse oklch(); the canvas API resolves it to rgb/rgba. */
+function replaceOklchWithRgbInCssValue(cssValue: string, win: Window): string {
+  const ctx = win.document.createElement('canvas').getContext('2d');
+  if (!ctx) return cssValue;
+  // Fresh RegExp each call — a shared /g regex would advance lastIndex across elements.
+  return cssValue.replace(new RegExp('oklch\\([^)]+\\)', 'gi'), (match) => {
+    try {
+      ctx.fillStyle = match;
+      const resolved = ctx.fillStyle;
+      if (typeof resolved === 'string' && !/oklch\s*\(/i.test(resolved)) {
+        return resolved;
+      }
+    } catch {
+      /* keep original */
+    }
+    return match;
+  });
+}
+
+/** Computed styles Tailwind v4 often emits as oklch inside gradients and shadows. */
+const PROPERTIES_TO_DE_OKLCH = [
+  'color',
+  'background-color',
+  'background-image',
+  'border-top-color',
+  'border-right-color',
+  'border-bottom-color',
+  'border-left-color',
+  'outline-color',
+  'text-decoration-color',
+  'box-shadow',
+  'text-shadow',
+  'fill',
+  'stroke',
+  'caret-color',
+];
+
 function convertOklchToRgbInDocument(doc: Document) {
+  const win = doc.defaultView;
+  if (!win) return;
+
   const allElements = doc.querySelectorAll('*');
   allElements.forEach((el) => {
-    const style = doc.defaultView?.getComputedStyle(el as Element);
+    const style = win.getComputedStyle(el as Element);
     if (!style) return;
-    
-    const properties = ['color', 'backgroundColor', 'borderColor', 'borderTopColor', 'borderRightColor', 'borderBottomColor', 'borderLeftColor'];
-    properties.forEach((prop) => {
-      const value = style.getPropertyValue(prop);
-      if (value && value.includes('oklch')) {
-        try {
-          const tempDiv = doc.createElement('div');
-          tempDiv.style.display = 'none';
-          tempDiv.style.position = 'absolute';
-          tempDiv.style.left = '-9999px';
-          (tempDiv as any).style[prop] = value;
-          doc.body.appendChild(tempDiv);
-          const computed = doc.defaultView!.getComputedStyle(tempDiv).getPropertyValue(prop);
-          doc.body.removeChild(tempDiv);
-          if (computed && !computed.includes('oklch')) {
-            (el as HTMLElement).style.setProperty(prop, computed);
-          }
-        } catch (e) {
-          console.warn(`Failed to convert ${prop} color:`, e);
-        }
+
+    for (const prop of PROPERTIES_TO_DE_OKLCH) {
+      const value = style.getPropertyValue(prop).trim();
+      if (!value || !value.toLowerCase().includes('oklch')) continue;
+      const converted = replaceOklchWithRgbInCssValue(value, win);
+      if (converted !== value && !converted.toLowerCase().includes('oklch')) {
+        (el as HTMLElement).style.setProperty(prop, converted);
       }
-    });
+    }
   });
 }
 
