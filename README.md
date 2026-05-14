@@ -106,57 +106,27 @@ VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
 
 ## Project Structure
 
-```
-├── public/
-│   ├── images/products/       # 144 Beyblade product images
-│   └── sounds/                # Audio effects
-├── src/
-│   ├── assets/                # Static assets (backgrounds, logos)
-│   ├── components/
-│   │   ├── Quiz/              # Quiz flow components
-│   │   │   ├── QuestionCard.tsx
-│   │   │   ├── QuizForm.tsx
-│   │   │   ├── QuizIntro.tsx
-│   │   │   └── QuizNavigation.tsx
-│   │   ├── Results/           # Result display components
-│   │   │   ├── AwakeningKeyword.tsx
-│   │   │   ├── BeybladeCard.tsx
-│   │   │   ├── BeybladeImagePopup.tsx
-│   │   │   ├── MatchScore.tsx
-│   │   │   ├── RadarChart.tsx
-│   │   │   └── TopMatchesList.tsx
-│   │   ├── Share/             # Sharing components
-│   │   │   ├── ShareButtons.tsx
-│   │   │   └── ShareCard.tsx
-│   │   └── ui/                # Reusable UI components
-│   │       ├── Button.tsx
-│   │       ├── ErrorBoundary.tsx
-│   │       ├── ImageWithFallback.tsx
-│   │       ├── LanguageSelector.tsx
-│   │       ├── LoadingSpinner.tsx
-│   │       ├── NavBar.tsx
-│   │       ├── ProgressBar.tsx
-│   │       ├── SuspenseWrapper.tsx
-│   │       └── WaveParticleBackground.tsx
-│   ├── context/               # React context providers
-│   ├── data/                  # Beyblade data & quiz questions
-│   ├── hooks/                 # Custom React hooks
-│   ├── i18n/                  # i18n configuration
-│   ├── locales/               # Translation files (en-US, ja-JP, zh-TW)
-│   ├── pages/                 # Page-level components
-│   ├── types/                 # TypeScript type definitions
-│   └── utils/                 # Utility functions & algorithms
-│       ├── awakeningKeywords.ts
-│       ├── calculateDistance.ts
-│       ├── detectBalanceType.ts
-│       ├── matchingAlgorithm.ts
-│       └── normalizeStats.ts
-├── .env.example
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
+- **`public/`** — static files served as-is
+  - `images/products/` — Beyblade product images
+  - `sounds/` — UI sound effects
+- **`src/`** — application source
+  - `assets/` — bundled images and logos
+  - `components/` — React UI
+    - `Quiz/` — intro, demographics, questions, navigation (`QuizForm.tsx`, `QuestionCard.tsx`, …)
+    - `Results/` — radar chart, matches, awakening keyword, share card
+    - `Share/` — share and download actions
+    - `ui/` — `NavBar`, `Button`, `WaveParticleBackground`, …
+  - `context/` — quiz and navigation state
+  - `data/` — `beyblades.json`, questions, stat ranges
+  - `hooks/` — quiz state, language, analytics, sound
+  - `i18n/` — i18next setup
+  - `lib/` — Supabase client helper
+  - `locales/` — `en-US`, `zh-TW`, `ja-JP` JSON
+  - `pages/` — `ResultPage` and other route-level views
+  - `types/` — shared TypeScript types
+  - `utils/` — matching algorithm, normalization, share image, `supabase` re-export
+- **`.github/workflows/`** — GitHub Actions (Pages deploy)
+- **Root config** — `index.html`, `vite.config.ts`, `package.json`, `tsconfig*.json`, `tailwind.config.js`, `postcss.config.js`, `vitest.config.ts`, `.env.example`
 
 ## Deployment
 

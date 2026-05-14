@@ -106,57 +106,27 @@ VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
 
 ## 專案結構
 
-```
-├── public/
-│   ├── images/products/       # 144 張陀螺產品圖片
-│   └── sounds/                # 音效檔案
-├── src/
-│   ├── assets/                # 靜態資源（背景、Logo）
-│   ├── components/
-│   │   ├── Quiz/              # 測驗流程元件
-│   │   │   ├── QuestionCard.tsx
-│   │   │   ├── QuizForm.tsx
-│   │   │   ├── QuizIntro.tsx
-│   │   │   └── QuizNavigation.tsx
-│   │   ├── Results/           # 結果顯示元件
-│   │   │   ├── AwakeningKeyword.tsx
-│   │   │   ├── BeybladeCard.tsx
-│   │   │   ├── BeybladeImagePopup.tsx
-│   │   │   ├── MatchScore.tsx
-│   │   │   ├── RadarChart.tsx
-│   │   │   └── TopMatchesList.tsx
-│   │   ├── Share/             # 分享元件
-│   │   │   ├── ShareButtons.tsx
-│   │   │   └── ShareCard.tsx
-│   │   └── ui/                # 可重用 UI 元件
-│   │       ├── Button.tsx
-│   │       ├── ErrorBoundary.tsx
-│   │       ├── ImageWithFallback.tsx
-│   │       ├── LanguageSelector.tsx
-│   │       ├── LoadingSpinner.tsx
-│   │       ├── NavBar.tsx
-│   │       ├── ProgressBar.tsx
-│   │       ├── SuspenseWrapper.tsx
-│   │       └── WaveParticleBackground.tsx
-│   ├── context/               # React Context Provider
-│   ├── data/                  # 陀螺資料與測驗題目
-│   ├── hooks/                 # 自訂 React Hooks
-│   ├── i18n/                  # 國際化設定
-│   ├── locales/               # 翻譯檔案（en-US、ja-JP、zh-TW）
-│   ├── pages/                 # 頁面層級元件
-│   ├── types/                 # TypeScript 型別定義
-│   └── utils/                 # 工具函式與演算法
-│       ├── awakeningKeywords.ts
-│       ├── calculateDistance.ts
-│       ├── detectBalanceType.ts
-│       ├── matchingAlgorithm.ts
-│       └── normalizeStats.ts
-├── .env.example
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
+- **`public/`** — 原樣提供的靜態檔案
+  - `images/products/` — 陀螺產品圖片
+  - `sounds/` — 介面音效
+- **`src/`** — 應用程式原始碼
+  - `assets/` — 會被打包的圖片與 Logo
+  - `components/` — React 介面
+    - `Quiz/` — 首頁、基本資料、題目與導覽（`QuizForm.tsx`、`QuestionCard.tsx` 等）
+    - `Results/` — 雷達圖、配對結果、覺醒關鍵字、分享卡片
+    - `Share/` — 分享與下載
+    - `ui/` — `NavBar`、`Button`、`WaveParticleBackground` 等共用元件
+  - `context/` — 測驗與頁面導覽狀態
+  - `data/` — `beyblades.json`、題目、數值區間
+  - `hooks/` — 測驗狀態、語系、分析、音效等
+  - `i18n/` — i18next 設定
+  - `lib/` — Supabase 用戶端輔助
+  - `locales/` — `en-US`、`zh-TW`、`ja-JP` 翻譯 JSON
+  - `pages/` — `ResultPage` 等頁面級元件
+  - `types/` — 共用 TypeScript 型別
+  - `utils/` — 配對演算法、正規化、分享圖、`supabase` 再匯出
+- **`.github/workflows/`** — GitHub Actions（Pages 部署）
+- **專案根目錄設定** — `index.html`、`vite.config.ts`、`package.json`、`tsconfig*.json`、`tailwind.config.js`、`postcss.config.js`、`vitest.config.ts`、`.env.example`
 
 ## 部署
 
