@@ -40,6 +40,8 @@
   "quiz": {
     "title": "Beyblade X Resonance Quiz",
     "subtitle": "Find the Beyblade that resonates with your soul",
+    "instagramLinkCopied": "Quiz link copied. Paste it into your Instagram post or story.",
+    "instagramClipboardFailed": "Could not copy the link automatically. Copy the address from your browser bar, then paste it in Instagram.",
     "progress": "Question {{current}} of {{total}}",
     "q1": {
       "question": "What is your zodiac element?",
@@ -138,6 +140,12 @@
     "statsComparison": "Stats Comparison",
     "downloadSuccess": "Download successful!",
     "downloadError": "Download failed, please try again",
+    "shareResultImageLabel": "Share result image (same as download)",
+    "shareImageError": "Could not create the result image. Please try again.",
+    "shareFacebookFallback": "Saved your result image and opened Facebook. Add the saved photo to your post if you want the card in the feed.",
+    "shareThreadsFallback": "Saved your result image and opened Threads. Attach the saved photo to your post.",
+    "shareInstagramClipboard": "Copied your result image and caption link, and opened Instagram. Paste into a post or story.",
+    "shareInstagramAfterDownload": "Downloaded your result image, copied the caption link, and opened Instagram. Pick the new photo from your library to post.",
     "battleStyle": "Your Battle Style",
     "rotation": {
       "left": "Left Rotation",

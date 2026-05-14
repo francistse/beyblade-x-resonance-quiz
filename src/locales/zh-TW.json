@@ -40,6 +40,8 @@
   "quiz": {
     "title": "Beyblade X 共鳴測驗",
     "subtitle": "找出與你靈魂共鳴的陀螺",
+    "instagramLinkCopied": "已複製測驗連結，請在 Instagram 貼文或限動中貼上。",
+    "instagramClipboardFailed": "無法自動複製連結，請從瀏覽器網址列手動複製後貼到 Instagram。",
     "progress": "第 {{current}} 題 / 共 {{total}} 題",
     "q1": {
       "question": "你的星座元素傾向是？",
@@ -138,6 +140,12 @@
     "statsComparison": "屬性對比",
     "downloadSuccess": "下載成功！",
     "downloadError": "下載失敗，請重試",
+    "shareResultImageLabel": "分享結果圖（與下載圖片相同）",
+    "shareImageError": "無法產生結果圖，請再試一次。",
+    "shareFacebookFallback": "已儲存結果圖，並開啟 Facebook 分享視窗；若要貼圖，請在貼文中加入剛存下的圖片。",
+    "shareThreadsFallback": "已儲存結果圖，並開啟 Threads；請在貼文中附上剛存下的圖片。",
+    "shareInstagramClipboard": "已複製結果圖與說明連結到剪貼簿，並開啟 Instagram；請在貼文或限動中貼上。",
+    "shareInstagramAfterDownload": "已下載結果圖並複製說明連結，並開啟 Instagram；請從相簿選擇剛下載的圖片發文。",
     "battleStyle": "你的戰鬥風格",
     "rotation": {
       "left": "左迴轉",

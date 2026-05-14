@@ -40,6 +40,8 @@
   "quiz": {
     "title": "ベイブレードX 共鳴診断",
     "subtitle": "あなたの魂と共鳴するベイを見つけよう",
+    "instagramLinkCopied": "診断ページのリンクをコピーしました。Instagramの投稿やストーリーに貼り付けてください。",
+    "instagramClipboardFailed": "リンクを自動でコピーできませんでした。ブラウザのアドレスバーから手動でコピーし、Instagramに貼り付けてください。",
     "progress": "第{{current}}問 / 全{{total}}問",
     "q1": {
       "question": "あなたの星座の元素は？",
@@ -138,6 +140,12 @@
     "statsComparison": "ステータス比較",
     "downloadSuccess": "ダウンロード成功！",
     "downloadError": "ダウンロードに失敗しました。もう一度お試しください",
+    "shareResultImageLabel": "結果カードをシェア（ダウンロード画像と同じ）",
+    "shareImageError": "結果画像を作成できませんでした。もう一度お試しください。",
+    "shareFacebookFallback": "結果画像を保存し、Facebookの共有画面も開きました。投稿に写真を追加できます。",
+    "shareThreadsFallback": "結果画像を保存し、Threadsを開きました。投稿に保存した画像を添付してください。",
+    "shareInstagramClipboard": "結果画像とキャプション用リンクをクリップボードにコピーし、Instagramを開きました。投稿やストーリーに貼り付けてください。",
+    "shareInstagramAfterDownload": "結果画像を保存し、キャプション用リンクをコピーしてInstagramを開きました。ギャラリーから画像を選んで投稿してください。",
     "battleStyle": "あなたのバトルスタイル",
     "rotation": {
       "left": "左回転",

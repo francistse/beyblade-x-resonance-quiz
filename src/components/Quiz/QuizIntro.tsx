@@ -1,4 +1,4 @@
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '../ui/Button';
 import logo from '../../assets/cmn_logo.svg';
@@ -14,6 +14,7 @@ const START_SOUND_PATH = publicUrl('/sounds/794843__sadiquecat__beyblade-x-phoen
 export function QuizIntro({ onStart }: QuizIntroProps) {
   const { t } = useTranslation();
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [shareNotice, setShareNotice] = useState<string | null>(null);
 
   const handleStart = useCallback(() => {
     if (!audioRef.current) {
@@ -24,19 +25,38 @@ export function QuizIntro({ onStart }: QuizIntroProps) {
     onStart();
   }, [onStart]);
 
+  const showShareNotice = (message: string) => {
+    setShareNotice(message);
+    window.setTimeout(() => setShareNotice(null), 4500);
+  };
+
   const handleFacebookShare = () => {
     const shareUrl = window.location.href;
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, '_blank', 'width=600,height=400');
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+      '_blank',
+      'width=600,height=400'
+    );
   };
 
   const handleThreadsShare = () => {
     const shareUrl = window.location.href;
-    window.open(`https://threads.net/intent/post?url=${encodeURIComponent(shareUrl)}`, '_blank', 'width=600,height=400');
+    const text = `${t('quiz.title')}\n${shareUrl}`;
+    window.open(
+      `https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`,
+      '_blank',
+      'width=600,height=400'
+    );
   };
 
-  const handleInstagramShare = () => {
+  const handleInstagramShare = async () => {
     const shareUrl = window.location.href;
-    navigator.clipboard.writeText(shareUrl).catch(() => {});
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      showShareNotice(t('quiz.instagramLinkCopied'));
+    } catch {
+      showShareNotice(t('quiz.instagramClipboardFailed'));
+    }
     window.open('https://www.instagram.com/', '_blank');
   };
 
@@ -54,8 +74,14 @@ export function QuizIntro({ onStart }: QuizIntroProps) {
           {t('common.start')}
         </Button>
         <p className="text-sm text-gray-500 font-medium">{t('common.shareQuiz', 'Share Quiz')}</p>
+        {shareNotice && (
+          <p className="text-sm text-center text-gray-600 max-w-sm px-2" role="status">
+            {shareNotice}
+          </p>
+        )}
         <div className="flex flex-wrap gap-3 justify-center">
           <button
+            type="button"
             onClick={handleFacebookShare}
             className="w-14 h-14 rounded-lg bg-purple-600 text-white shadow-lg hover:bg-purple-500 transition-all hover:scale-105 active:scale-95 flex items-center justify-center"
             title="Facebook"
@@ -65,6 +91,7 @@ export function QuizIntro({ onStart }: QuizIntroProps) {
             </svg>
           </button>
           <button
+            type="button"
             onClick={handleThreadsShare}
             className="w-14 h-14 rounded-lg bg-purple-600 text-white shadow-lg hover:bg-purple-500 transition-all hover:scale-105 active:scale-95 flex items-center justify-center"
             title="Threads"
@@ -72,6 +99,7 @@ export function QuizIntro({ onStart }: QuizIntroProps) {
             <img src={threadsIcon} alt="Threads" className="w-6 h-6" />
           </button>
           <button
+            type="button"
             onClick={handleInstagramShare}
             className="w-14 h-14 rounded-lg bg-purple-600 text-white shadow-lg hover:bg-purple-500 transition-all hover:scale-105 active:scale-95 flex items-center justify-center"
             title="Instagram"

@@ -49,12 +49,17 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
     }
   }, [downloadStatus]);
 
+  const getShareImageBlob = async () => {
+    if (!shareCardRef.current) return null;
+    return generateShareImage(shareCardRef.current);
+  };
+
   const handleDownload = async () => {
     if (!shareCardRef.current || isDownloading) return;
 
     setIsDownloading(true);
     try {
-      const blob = await generateShareImage(shareCardRef.current);
+      const blob = await getShareImageBlob();
       if (blob) {
         downloadImage(blob);
         setDownloadStatus('success');
@@ -70,7 +75,7 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
     }
   };
 
-  const shareUrl = window.location.href;
+  const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
 
   return (
     <div className="min-h-screen bg-gray-50 pb-32 pt-6 px-4">
@@ -96,9 +101,15 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
       </div>
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-t from-black/90 via-black/80 to-transparent pt-8 pb-4 px-4">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3">
-          <ShareButtons onDownload={handleDownload} shareUrl={shareUrl} isDownloading={isDownloading} />
+        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center gap-4">
+          <ShareButtons
+            onDownload={handleDownload}
+            shareUrl={shareUrl}
+            isDownloading={isDownloading}
+            getShareImageBlob={getShareImageBlob}
+          />
           <button
+            type="button"
             onClick={onRetry}
             className="px-5 py-2.5 rounded-lg bg-white/10 border border-white/30 text-white font-bold text-sm hover:bg-white/20 transition-all hover:scale-105 active:scale-95"
           >

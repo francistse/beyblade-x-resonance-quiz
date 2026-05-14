@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { QuizResult } from '../../types';
 import { ImageWithFallback } from '../ui/ImageWithFallback';
 import { RadarChart } from '../Results/RadarChart';
+import { BeybladeImagePopup } from '../Results/BeybladeImagePopup';
 
 interface ShareCardProps {
   result: QuizResult;
@@ -42,7 +43,7 @@ export const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(({ result },
         }}
       >
         <div
-          className="mx-auto mb-3 flex items-center justify-center"
+          className="mx-auto mb-3 flex shrink-0 items-center justify-center overflow-hidden"
           style={{
             width: 168,
             height: 168,
@@ -51,12 +52,16 @@ export const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(({ result },
             padding: 8,
           }}
         >
-          <ImageWithFallback
-            src={topMatch.beyblade.image}
-            alt={name}
-            className="max-h-full max-w-full object-contain"
-            crossOrigin="anonymous"
-          />
+          <BeybladeImagePopup beyblade={topMatch.beyblade}>
+            <div className="flex h-[152px] w-[152px] max-h-[152px] max-w-[152px] items-center justify-center overflow-hidden">
+              <ImageWithFallback
+                src={topMatch.beyblade.image}
+                alt={name}
+                className="max-h-full max-w-full object-contain"
+                crossOrigin="anonymous"
+              />
+            </div>
+          </BeybladeImagePopup>
         </div>
         <p className="text-center font-bold text-lg" style={{ color: '#ffffff' }}>
           {name}
