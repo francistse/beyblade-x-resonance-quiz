@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-import type { SupabaseClient } from '@supabase/supabase-js';
-import { supabase } from './utils/supabase';
+import { useState } from 'react';
 import './i18n/config';
 import { QuizProvider } from './context/QuizContext';
 import { NavigationProvider } from './context/NavigationContext';
@@ -21,8 +19,6 @@ import { getAwakeningKeyword } from './utils/awakeningKeywords';
 import beybladesData from './data/beyblades.json';
 import './App.css';
 
-type TodoRow = { id: string; name: string };
-
 function App() {
   return (
     <QuizProvider>
@@ -36,19 +32,6 @@ function App() {
 function AppContent() {
   const { currentPage, goHome, goToDemographics, goToQuiz, goToResult } = useNavigation();
   const [result, setResult] = useState<QuizResult | null>(null);
-  const [todos, setTodos] = useState<TodoRow[]>([]);
-
-  useEffect(() => {
-    const client = supabase;
-    if (!client) return;
-    async function getTodos(sb: SupabaseClient) {
-      const { data } = await sb.from('todos').select();
-      if (data) {
-        setTodos(data as TodoRow[]);
-      }
-    }
-    void getTodos(client);
-  }, []);
 
   const { state, dispatch, reset } = useQuizState();
   const { currentLanguage } = useLanguage();
@@ -127,14 +110,6 @@ function AppContent() {
 
         {currentPage === 'about' && (
           <AboutSection />
-        )}
-
-        {todos.length > 0 && (
-          <ul className="mx-auto max-w-2xl px-4 pb-8 text-sm text-white/70">
-            {todos.map((todo) => (
-              <li key={todo.id}>{todo.name}</li>
-            ))}
-          </ul>
         )}
       </div>
     </div>

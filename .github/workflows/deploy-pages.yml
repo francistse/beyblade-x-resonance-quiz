@@ -28,7 +28,15 @@ jobs:
 
       - run: npm ci
 
+      # Vite inlines VITE_* at build time. Set repo secrets (Settings → Secrets and variables
+      # → Actions): VITE_SUPABASE_URL, VITE_SUPABASE_PUBLISHABLE_KEY (or VITE_SUPABASE_ANON_KEY).
+      # Do not commit .env — the publishable/anon key is still a public client credential, but
+      # it should not live in git history; GitHub Secrets keeps it out of the default branch.
       - run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
