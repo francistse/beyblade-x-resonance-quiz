@@ -206,6 +206,11 @@
       "freesound": "コミュニティ提供のサウンドエフェクト",
       "trae": "このプロジェクトはTRAE IDEで開発されました"
     },
+    "github": {
+      "title": "オープンソース",
+      "linkLabel": "github.com/francistse/beyblade-x-resonance-quiz",
+      "description": "ソースコード、README、Issue、コントリビューションの案内。"
+    },
     "contact": {
       "title": "お問い合わせ",
       "maintainer": "プロジェクトメンテナー：Francis Tse",

@@ -206,6 +206,11 @@
       "freesound": "社群貢獻的音效素材",
       "trae": "本專案使用 TRAE IDE 開發"
     },
+    "github": {
+      "title": "開放原始碼",
+      "linkLabel": "github.com/francistse/beyblade-x-resonance-quiz",
+      "description": "原始碼、說明文件、Issue 與貢獻方式。"
+    },
     "contact": {
       "title": "聯絡方式",
       "maintainer": "專案維護者：Francis Tse",

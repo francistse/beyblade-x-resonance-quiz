@@ -68,6 +68,22 @@ export function AboutSection() {
         </section>
 
         <section className="about-block">
+          <h2 className="about-heading">{t('about.github.title')}</h2>
+          <p className="about-text">
+            <a
+              href="https://github.com/francistse/beyblade-x-resonance-quiz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-github-link"
+            >
+              {t('about.github.linkLabel')}
+            </a>
+            {' — '}
+            {t('about.github.description')}
+          </p>
+        </section>
+
+        <section className="about-block">
           <h2 className="about-heading">{t('about.contact.title')}</h2>
           <p className="about-text">{t('about.contact.maintainer')}</p>
           <ul className="about-contact-list">
@@ -132,6 +148,16 @@ export function AboutSection() {
           color: #4b5563;
           line-height: 1.75;
           font-size: 0.95rem;
+        }
+
+        .about-github-link {
+          color: #3b82f6;
+          font-weight: 600;
+          text-decoration: none;
+        }
+
+        .about-github-link:hover {
+          text-decoration: underline;
         }
 
         .about-steps {
