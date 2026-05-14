@@ -41,7 +41,8 @@ export function useAnalytics() {
       });
       
       if (error) {
-        console.error('[Analytics] Failed to save:', error);
+        const hint = 'hint' in error && typeof error.hint === 'string' ? error.hint : '';
+        console.error('[Analytics] Failed to save:', error.message, hint ? `\n${hint}` : '', error);
         return false;
       }
       
