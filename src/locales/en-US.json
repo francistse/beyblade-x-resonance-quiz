@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT"
+  },
+  "common": {
+    "start": "Start Quiz",
+    "next": "Next",
+    "prev": "Previous",
+    "result": "View Result",
+    "shareQuiz": "Share Quiz",
+    "download": "Download Image",
+    "copy": "Copy Link",
+    "retry": "Try Again",
+    "generating": "Generating...",
+    "copied": "Copied",
+    "share": "Share"
+  },
+  "demographics": {
+    "title": "Basic Information",
+    "subtitle": "Please provide the following information to help us analyze quiz results",
+    "gender": {
+      "label": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say"
+    },
+    "ageGroup": {
+      "label": "Age Group",
+      "under13": "Under 13",
+      "13_17": "13-17",
+      "18_24": "18-24",
+      "25_34": "25-34",
+      "35_44": "35-44",
+      "45_54": "45-54",
+      "55_plus": "55+"
+    }
+  },
+  "quiz": {
+    "title": "Beyblade X Resonance Quiz",
+    "subtitle": "Find the Beyblade that resonates with your soul",
+    "progress": "Question {{current}} of {{total}}",
+    "q1": {
+      "question": "What is your zodiac element?",
+      "option1": "Fire (Aries, Leo, Sagittarius)",
+      "option2": "Earth (Taurus, Virgo, Capricorn)",
+      "option3": "Air (Gemini, Libra, Aquarius)",
+      "option4": "Water (Cancer, Scorpio, Pisces)"
+    },
+    "q2": {
+      "question": "How do you handle conflicts?",
+      "option1": "Confront directly, speak clearly",
+      "option2": "Analyze calmly, find win-win",
+      "option3": "Avoid first, wait for right timing",
+      "option4": "Depends on situation, flexible approach"
+    },
+    "q3": {
+      "question": "What's your ideal work environment?",
+      "option1": "Dynamic and challenging startup",
+      "option2": "Stable office with clear systems",
+      "option3": "Quiet environment to master skills",
+      "option4": "Flexible remote work"
+    },
+    "q4": {
+      "question": "What matters most when buying tech?",
+      "option1": "Peak performance, latest tech",
+      "option2": "Durability and after-sales service",
+      "option3": "Battery life and stability",
+      "option4": "Best value for money"
+    },
+    "q5": {
+      "question": "You're behind in the final minute. You...",
+      "option1": "Go all-in, full attack",
+      "option2": "Hold defense, wait for mistakes",
+      "option3": "Keep rhythm, trust preparation",
+      "option4": "Observe weaknesses, adapt strategy"
+    },
+    "q6": {
+      "question": "Your instinctive reaction to criticism?",
+      "option1": "Anger or want to argue back",
+      "option2": "Hurt but reflect first",
+      "option3": "Unfazed, continue my path",
+      "option4": "Analyze the motive and advice"
+    },
+    "q7": {
+      "question": "What failure is most unacceptable?",
+      "option1": "Being one-shot defeated",
+      "option2": "Making a stupid mistake myself",
+      "option3": "Running out of stamina at the end",
+      "option4": "Losing without any strategy"
+    },
+    "q8": {
+      "question": "Your first feeling when winning?",
+      "option1": "\"I'm so strong!\"",
+      "option2": "\"Finally held the line\"",
+      "option3": "\"Hard work paid off\"",
+      "option4": "\"Everything went as planned\""
+    },
+    "q9": {
+      "question": "Your first step in a new group?",
+      "option1": "Introduce myself to everyone",
+      "option2": "Sit back and observe",
+      "option3": "Find one person to chat quietly",
+      "option4": "Wander around naturally"
+    },
+    "q10": {
+      "question": "Keywords friends use to describe you?",
+      "option1": "Passionate, decisive",
+      "option2": "Steady, reliable",
+      "option3": "Focused, persistent",
+      "option4": "Smart, flexible"
+    },
+    "q11": {
+      "question": "Your preferred team role?",
+      "option1": "Decision maker",
+      "option2": "Gatekeeper",
+      "option3": "Executor",
+      "option4": "Coordinator"
+    },
+    "q12": {
+      "question": "Your vision for the future?",
+      "option1": "Pioneer new territory",
+      "option2": "Protect current happiness",
+      "option3": "Reach the peak in my field",
+      "option4": "Experience a colorful life"
+    }
+  },
+  "result": {
+    "title": "Your Resonant Beyblade",
+    "match": "Match",
+    "awakening": "Awakening Keyword",
+    "shareTitle": "Beyblade X Resonance Quiz",
+    "shareText": "I found the Beyblade that resonates with my soul!",
+    "topMatches": "Top 3 Matches",
+    "viewInDatabase": "View in Database",
+    "statsComparison": "Stats Comparison",
+    "downloadSuccess": "Download successful!",
+    "downloadError": "Download failed, please try again",
+    "battleStyle": "Your Battle Style",
+    "rotation": {
+      "left": "Left Rotation",
+      "right": "Right Rotation"
+    },
+    "popup": {
+      "productId": "Product ID",
+      "attack": "Attack",
+      "defense": "Defense",
+      "stamina": "Stamina",
+      "description": "Product Description",
+      "leftRotation": "Left Rotation",
+      "rightRotation": "Right Rotation"
+    },
+    "radar": {
+      "user": "You",
+      "beyblade": "Beyblade"
+    },
+    "awakeningKeywords": {
+      "attack": ["Explosive", "Breakthrough", "Charge", "Passionate"],
+      "defense": ["Guardian", "Protect", "Steadfast", "Unyielding"],
+      "stamina": ["Endurance", "Perseverance", "Focus", "Persistence"],
+      "balance": ["Balanced", "All-Rounder", "Adaptable", "Flexible"]
+    }
+  },
+  "about": {
+    "title": "About",
+    "back": "Back to Home",
+    "intro": {
+      "title": "What is Beyblade X Resonance Quiz?",
+      "description": "Beyblade X Resonance Quiz is a personality quiz that matches you with your resonant Beyblade X. Through 12 carefully crafted questions, we analyze your tendencies across three core axes — Attack, Defense, and Stamina — then use a vector-based cosine distance algorithm to find the Beyblade that best resonates with your soul. With 144 Beyblade X products in our database, discover your true battle type and the Beyblade that fights alongside you."
+    },
+    "howToPlay": {
+      "title": "How to Play",
+      "steps": [
+        "Answer 12 personality questions — each option maps to Attack, Defense, or Stamina scores",
+        "Your scores are normalized into a unit vector representing your battle profile",
+        "We calculate the cosine distance between your vector and all 144 Beyblade stat vectors",
+        "Balance-type users receive priority matching with Balance-type Beyblades",
+        "Your top 3 matches are revealed with fit percentage and an awakening keyword",
+        "Share your results with friends and find out which Beyblade they resonate with!"
+      ]
+    },
+    "battleTypes": {
+      "title": "Battle Types",
+      "attack": {
+        "name": "Attack",
+        "desc": "Aggressive, direct, high-impact — charges head-on with overwhelming force"
+      },
+      "defense": {
+        "name": "Defense",
+        "desc": "Calm, analytical, resilient — stands firm and turns opponents' power against them"
+      },
+      "stamina": {
+        "name": "Stamina",
+        "desc": "Patient, enduring, strategic — outlasts the competition with steady persistence"
+      },
+      "balance": {
+        "name": "Balance",
+        "desc": "Versatile, adaptive, well-rounded — reads the battle and responds accordingly"
+      }
+    },
+    "acknowledgments": {
+      "title": "Acknowledgments",
+      "takaratomy": "Beyblade X product line and franchise",
+      "phstudy": "Beyblade X product database and stat reference used in this quiz",
+      "freesound": "Community-contributed sound effects",
+      "trae": "This project was built with TRAE IDE"
+    },
+    "contact": {
+      "title": "Contact",
+      "maintainer": "Project Maintainer: Francis Tse",
+      "email": "francis.tse.mc@gmail.com",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

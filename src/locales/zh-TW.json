@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於"
+  },
+  "common": {
+    "start": "開始測驗",
+    "next": "下一題",
+    "prev": "上一題",
+    "result": "查看結果",
+    "shareQuiz": "分享測驗",
+    "download": "下載圖片",
+    "copy": "複製連結",
+    "retry": "重新測試",
+    "generating": "生成中...",
+    "copied": "已複製",
+    "share": "分享"
+  },
+  "demographics": {
+    "title": "基本資料",
+    "subtitle": "請填寫以下資訊，幫助我們更好地分析測驗結果",
+    "gender": {
+      "label": "性別",
+      "male": "男性",
+      "female": "女性",
+      "other": "其他",
+      "preferNotToSay": "不願透露"
+    },
+    "ageGroup": {
+      "label": "年齡層",
+      "under13": "13 歲以下",
+      "13_17": "13-17 歲",
+      "18_24": "18-24 歲",
+      "25_34": "25-34 歲",
+      "35_44": "35-44 歲",
+      "45_54": "45-54 歲",
+      "55_plus": "55 歲以上"
+    }
+  },
+  "quiz": {
+    "title": "Beyblade X 共鳴測驗",
+    "subtitle": "找出與你靈魂共鳴的陀螺",
+    "progress": "第 {{current}} 題 / 共 {{total}} 題",
+    "q1": {
+      "question": "你的星座元素傾向是？",
+      "option1": "火象（白羊、獅子、射手）",
+      "option2": "土象（金牛、處女、摩羯）",
+      "option3": "風象（雙子、天秤、水瓶）",
+      "option4": "水象（巨蟹、天蠍、雙魚）"
+    },
+    "q2": {
+      "question": "你如何處理人際衝突？",
+      "option1": "直接對質，把話說清楚",
+      "option2": "冷靜分析，尋找雙贏方案",
+      "option3": "先避開，等待時機再處理",
+      "option4": "視情況而定，靈活應對"
+    },
+    "q3": {
+      "question": "你理想的工作環境是？",
+      "option1": "充滿變化與挑戰的創業環境",
+      "option2": "制度完善、穩定的辦公室",
+      "option3": "能深耕專業、安靜的環境",
+      "option4": "彈性遠端，自由安排時間"
+    },
+    "q4": {
+      "question": "購買 3C 產品時你最看重？",
+      "option1": "性能爆發力、最新技術",
+      "option2": "耐用度與售後服務",
+      "option3": "續航力與穩定性",
+      "option4": "性價比平衡"
+    },
+    "q5": {
+      "question": "比賽最後一分鐘你落後，你會？",
+      "option1": "孤注一擲，全力進攻",
+      "option2": "穩守防線，等待對手出錯",
+      "option3": "保持節奏，相信平時累積",
+      "option4": "觀察對手弱點，切換戰術"
+    },
+    "q6": {
+      "question": "面對批評時的直覺反應？",
+      "option1": "憤怒或想反駁",
+      "option2": "感到受傷但先反省自己",
+      "option3": "不以為意，繼續走自己的路",
+      "option4": "分析對方動機與建議"
+    },
+    "q7": {
+      "question": "你最不能接受的失敗方式？",
+      "option1": "被人一擊秒殺",
+      "option2": "自己出現低級失誤",
+      "option3": "體力耗盡功虧一簣",
+      "option4": "毫無策略地亂打"
+    },
+    "q8": {
+      "question": "獲勝時你的第一感受？",
+      "option1": "「我真強！」",
+      "option2": "「總算守住了」",
+      "option3": "「努力終於有回報」",
+      "option4": "「一切都在計畫中」"
+    },
+    "q9": {
+      "question": "進入新團體的第一步？",
+      "option1": "主動介紹自己，認識大家",
+      "option2": "坐在後排觀察氣氛",
+      "option3": "找一個人安靜聊天",
+      "option4": "隨意走動，自然社交"
+    },
+    "q10": {
+      "question": "朋友形容你的關鍵字？",
+      "option1": "熱血、果斷",
+      "option2": "穩重、可靠",
+      "option3": "專注、毅力",
+      "option4": "聰明、靈活"
+    },
+    "q11": {
+      "question": "在團隊中你傾向擔任？",
+      "option1": "決策者",
+      "option2": "守門員/把關者",
+      "option3": "執行者",
+      "option4": "協調者"
+    },
+    "q12": {
+      "question": "對未來的願景？",
+      "option1": "開創一片新天地",
+      "option2": "守護現有的幸福",
+      "option3": "在某一領域達到頂峰",
+      "option4": "體驗多采多姿的人生"
+    }
+  },
+  "result": {
+    "title": "你的共鳴陀螺",
+    "match": "適配百分比",
+    "awakening": "覺醒關鍵詞",
+    "shareTitle": "Beyblade X 共鳴測驗",
+    "shareText": "我找到了與我靈魂共鳴的陀螺！",
+    "topMatches": "前 3 名",
+    "viewInDatabase": "查看資料庫",
+    "statsComparison": "屬性對比",
+    "downloadSuccess": "下載成功！",
+    "downloadError": "下載失敗，請重試",
+    "battleStyle": "你的戰鬥風格",
+    "rotation": {
+      "left": "左迴轉",
+      "right": "右迴轉"
+    },
+    "popup": {
+      "productId": "產品編號",
+      "attack": "攻擊",
+      "defense": "防禦",
+      "stamina": "持久",
+      "description": "產品說明",
+      "leftRotation": "← 左迴轉",
+      "rightRotation": "→ 右迴轉"
+    },
+    "radar": {
+      "user": "你",
+      "beyblade": "陀螺"
+    },
+    "awakeningKeywords": {
+      "attack": ["爆發", "突破", "衝鋒", "熱血"],
+      "defense": ["堅守", "守護", "穩重", "不屈"],
+      "stamina": ["持久", "毅力", "專注", "堅持"],
+      "balance": ["均衡", "全能", "適應", "靈活"]
+    }
+  },
+  "about": {
+    "title": "關於",
+    "back": "返回首頁",
+    "intro": {
+      "title": "什麼是 Beyblade X 共鳴測驗？",
+      "description": "Beyblade X 共鳴測驗是一個性格測驗，透過 12 道精心設計的問題，分析你在攻擊、防禦、持久三大軸心上的傾向，再以向量式餘弦距離演算法，從 144 款 Beyblade X 產品資料庫中找出與你靈魂最共鳴的陀螺。發掘你的戰鬥類型，找到與你並肩作戰的專屬陀螺。"
+    },
+    "howToPlay": {
+      "title": "遊戲方式",
+      "steps": [
+        "回答 12 道性格問題 — 每個選項對應攻擊、防禦或持久分數",
+        "你的分數將被正規化為單位向量，代表你的戰鬥特質",
+        "我們計算你的向量與 144 款陀螺能力向量之間的餘弦距離",
+        "平衡型使用者會優先匹配平衡型陀螺",
+        "揭曉你的前 3 名匹配結果、適配百分比與覺醒關鍵字",
+        "分享結果給朋友，看看他們共鳴的是哪款陀螺！"
+      ]
+    },
+    "battleTypes": {
+      "title": "戰鬥類型",
+      "attack": {
+        "name": "攻擊型",
+        "desc": "積極、直接、高衝擊 — 以壓倒性的力量正面迎擊"
+      },
+      "defense": {
+        "name": "防禦型",
+        "desc": "冷靜、分析、堅韌 — 穩如磐石，以柔克剛"
+      },
+      "stamina": {
+        "name": "持久型",
+        "desc": "耐心、持久、策略 — 以穩定的毅力笑到最後"
+      },
+      "balance": {
+        "name": "平衡型",
+        "desc": "靈活、適應、全面 — 見招拆招，隨機應變"
+      }
+    },
+    "acknowledgments": {
+      "title": "致謝",
+      "takaratomy": "Beyblade X 產品線與系列",
+      "phstudy": "Beyblade X 產品資料庫與能力值參考，為本測驗之數據來源",
+      "freesound": "社群貢獻的音效素材",
+      "trae": "本專案使用 TRAE IDE 開發"
+    },
+    "contact": {
+      "title": "聯絡方式",
+      "maintainer": "專案維護者：Francis Tse",
+      "email": "francis.tse.mc@gmail.com",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

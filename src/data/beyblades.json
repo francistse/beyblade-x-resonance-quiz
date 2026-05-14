@@ -1,0 +1,3754 @@
+[
+  {
+    "id": "BX-01",
+    "en_name": "DRANSWORD",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX01_list.png",
+    "name": {
+      "zh-TW": "BX-01 蒼龍神劍",
+      "en-US": "BX-01 DRANSWORD",
+      "ja-JP": "BX-01 ドランソード"
+    },
+    "description": {
+      "zh-TW": "BX-01 蒼龍神劍3-60F中收錄。\n設有3片上鉤刃，擅長將對手往斜上方撞飛。",
+      "en-US": "Found in the BX-01 DRANSWORD 3-60F.\nThree upper BLADES make it easier to knock opponents up at an angle.",
+      "ja-JP": "BX-01 ドランソード3-60Fに収録。\n3枚のアッパー刃で相手を斜め上に弾き飛ばすことに優れる。"
+    },
+    "blade_id": "BL-PRD-910381-00"
+  },
+  {
+    "id": "BX-02",
+    "en_name": "HELLSSCYTHE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 35,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX02_list.png",
+    "name": {
+      "zh-TW": "BX-02 惡魔紅鐮",
+      "en-US": "BX-02 HELLSSCYTHE",
+      "ja-JP": "BX-02 ヘルズサイズ"
+    },
+    "description": {
+      "zh-TW": "BX-02 惡魔紅鐮4-60T中收錄。\n設有4片下旋刃，擅長破壞對手的姿態。",
+      "en-US": "Found in the BX-02 HELLSSCYTHE 4-60T.\nFour smash BLADES make it easier to unbalance the opponent.",
+      "ja-JP": "BX-02 ヘルズサイズ4-60Tに収録。\n4枚のスマッシュ刃で相手の体勢を崩すことに優れる。"
+    },
+    "blade_id": "BL-PRD-910398-00"
+  },
+  {
+    "id": "BX-03",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX03_list.png",
+    "name": {
+      "zh-TW": "BX-03 魔導幻箭",
+      "en-US": "BX-03 WIZARDARROW",
+      "ja-JP": "BX-03 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-03 魔導幻箭4-80B中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-03 WIZARDARROW 4-80B.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-03 ウィザードアロー4-80Bに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-910473-00"
+  },
+  {
+    "id": "BX-04",
+    "en_name": "KNIGHTSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX04_list.png",
+    "name": {
+      "zh-TW": "BX-04 騎士重盾",
+      "en-US": "BX-04 KNIGHTSHIELD",
+      "ja-JP": "BX-04 ナイトシールド"
+    },
+    "description": {
+      "zh-TW": "BX-04 騎士重盾3-80N中收錄。\n設有6片防禦刃，採用容易吸收衝擊的緩衝構造。",
+      "en-US": "Found in the BX-04 KNIGHTSHIELD 3-80N.\nSix defensive BLADES structured to improve shock-absorption.",
+      "ja-JP": "BX-04 ナイトシールド3-80Nに収録。\n6枚の防御刃で衝撃を吸収しやすいダンパー構造を採用。"
+    },
+    "blade_id": "BL-PRD-910404-00"
+  },
+  {
+    "id": "BX-05",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX05_list.png",
+    "name": {
+      "zh-TW": "BX-05 魔導幻箭",
+      "en-US": "BX-05 WIZARDARROW",
+      "ja-JP": "BX-05 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-05 魔導幻箭4-80B中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-05 WIZARDARROW 4-80B.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-05 ウィザードアロー4-80Bに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-910497-00"
+  },
+  {
+    "id": "BX-06",
+    "en_name": "KNIGHTSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX06_list.png",
+    "name": {
+      "zh-TW": "BX-06 騎士重盾",
+      "en-US": "BX-06 KNIGHTSHIELD",
+      "ja-JP": "BX-06 ナイトシールド"
+    },
+    "description": {
+      "zh-TW": "BX-06 騎士重盾3-80N中收錄。\n設有6片防禦刃，採用容易吸收衝擊的緩衝構造。",
+      "en-US": "Found in the BX-06 KNIGHTSHIELD 3-80N.\nSix defensive BLADES structured to improve shock-absorption.",
+      "ja-JP": "BX-06 ナイトシールド3-80Nに収録。\n6枚の防御刃で衝撃を吸収しやすいダンパー構造を採用。"
+    },
+    "blade_id": "BL-PRD-910480-00"
+  },
+  {
+    "id": "BX-07",
+    "en_name": "DRANSWORD",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX07_list.png",
+    "name": {
+      "zh-TW": "BX-07 蒼龍神劍 特別版",
+      "en-US": "BX-07 DRANSWORD Special Ver.",
+      "ja-JP": "BX-07 ドランソード スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "BX-07 蒼龍神劍3-60F 特別Ver.中收錄。\n設有3片上鉤刃，擅長將對手往斜上方撞飛。",
+      "en-US": "Found in the BX-07 DRANSWORD 3-60F Special Ver.\nThree upper BLADES make it easier to knock opponents up at an angle.",
+      "ja-JP": "BX-07 ドランソード3-60F スペシャルVer.に収録。\n3枚のアッパー刃で相手を斜め上に弾き飛ばすことに優れる。"
+    },
+    "blade_id": "BL-PRD-910589-00"
+  },
+  {
+    "id": "BX-08-01",
+    "en_name": "HELLSSCYTHE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 35,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX08_list.png",
+    "name": {
+      "zh-TW": "BX-08-01 惡魔紅鐮",
+      "en-US": "BX-08-01 HELLSSCYTHE",
+      "ja-JP": "BX-08-01 ヘルズサイズ"
+    },
+    "description": {
+      "zh-TW": "BX-08-01 惡魔紅鐮3-80B中收錄。\n設有4片下旋刃，擅長破壞對手的姿態。",
+      "en-US": "Found in the BX-08-01 HELLSSCYTHE 3-80B.\nFour smash BLADES make it easier to unbalance the opponent.",
+      "ja-JP": "BX-08-01 ヘルズサイズ3-80Bに収録。\n4枚のスマッシュ刃で相手の体勢を崩すことに優れる。"
+    },
+    "blade_id": "BL-PRD-910572-01"
+  },
+  {
+    "id": "BX-08-02",
+    "en_name": "KNIGHTSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX08_list.png",
+    "name": {
+      "zh-TW": "BX-08-02 騎士重盾",
+      "en-US": "BX-08-02 KNIGHTSHIELD",
+      "ja-JP": "BX-08-02 ナイトシールド"
+    },
+    "description": {
+      "zh-TW": "BX-08-02 騎士重盾4-80T中收錄。\n設有6片防禦刃，採用容易吸收衝擊的緩衝構造。",
+      "en-US": "Found in the BX-08-02 KNIGHTSHIELD 4-80T.\nSix defensive BLADES structured to improve shock-absorption.",
+      "ja-JP": "BX-08-02 ナイトシールド4-80Tに収録。\n6枚の防御刃で衝撃を吸収しやすいダンパー構造を採用。"
+    },
+    "blade_id": "BL-PRD-910572-02"
+  },
+  {
+    "id": "BX-08-03",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX08_list.png",
+    "name": {
+      "zh-TW": "BX-08-03 魔導幻箭",
+      "en-US": "BX-08-03 WIZARDARROW",
+      "ja-JP": "BX-08-03 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-08-03 魔導幻箭4-60N中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-08-03 WIZARDARROW 4-60N.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-08-03 ウィザードアロー4-60Nに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-910572-03"
+  },
+  {
+    "id": "BX-13",
+    "en_name": "KNIGHTLANCE",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 60,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX13_list.png",
+    "name": {
+      "zh-TW": "BX-13 騎士長槍",
+      "en-US": "BX-13 KNIGHTLANCE",
+      "ja-JP": "BX-13 ナイトランス"
+    },
+    "description": {
+      "zh-TW": "BX-13 騎士長槍4-80HN中收錄。\n戰刃設計在偏高的位置，擅長壓制對手的攻擊。",
+      "en-US": "Found in the BX-13 KNIGHTLANCE 4-80HN.\nHigh BLADE position makes it easier to hold back the opponent's attacks.",
+      "ja-JP": "BX-13 ナイトランス4-80HNに収録。\n刃の位置が高めに設計され、相手の攻撃を押さえつけることに優れる。"
+    },
+    "blade_id": "BL-PRD-910565-00"
+  },
+  {
+    "id": "BX-14-01",
+    "en_name": "SHARKEDGE",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-01 鮫鯊鋒鰭",
+      "en-US": "BX-14-01 SHARKEDGE",
+      "ja-JP": "BX-14-01 シャークエッジ"
+    },
+    "description": {
+      "zh-TW": "BX-14-01 鮫鯊鋒鰭3-60LF中收錄。\n具備大角度的上鉤刃設計，可鑽入對手懷中，並從低位置將其向上彈飛。",
+      "en-US": "Found in the BX-14-01 SHARKEDGE 3-60LF.\nSharply-angled upper BLADES make it easier to get in close to the opponent and flip them from a low position.",
+      "ja-JP": "BX-14-01 シャークエッジ3-60LFに収録。\n急角度のアッパー刃で相手の懐に潜り込み、低い位置から跳ね上げる設計。"
+    },
+    "blade_id": "BL-PRD-912965-01"
+  },
+  {
+    "id": "BX-14-02",
+    "en_name": "SHARKEDGE",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-02 鮫鯊鋒鰭",
+      "en-US": "BX-14-02 SHARKEDGE",
+      "ja-JP": "BX-14-02 シャークエッジ"
+    },
+    "description": {
+      "zh-TW": "BX-14-02 鮫鯊鋒鰭4-80N中收錄。\n具備大角度的上鉤刃設計，可鑽入對手懷中，並從低位置將其向上彈飛。",
+      "en-US": "Found in the BX-14-02 SHARKEDGE 4-80N.\nSharply-angled upper BLADES make it easier to get in close to the opponent and flip them from a low position.",
+      "ja-JP": "BX-14-02 シャークエッジ4-80Nに収録。\n急角度のアッパー刃で相手の懐に潜り込み、低い位置から跳ね上げる設計。"
+    },
+    "blade_id": "BL-PRD-912965-02"
+  },
+  {
+    "id": "BX-14-03",
+    "en_name": "DRANSWORD",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-03 蒼龍神劍",
+      "en-US": "BX-14-03 DRANSWORD",
+      "ja-JP": "BX-14-03 ドランソード"
+    },
+    "description": {
+      "zh-TW": "BX-14-03 蒼龍神劍3-80B中收錄。\n設有3片上鉤刃，擅長將對手往斜上方撞飛。",
+      "en-US": "Found in the BX-14-03 DRANSWORD 3-80B.\nThree upper BLADES make it easier to knock opponents up at an angle.",
+      "ja-JP": "BX-14-03 ドランソード3-80Bに収録。\n3枚のアッパー刃で相手を斜め上に弾き飛ばすことに優れる。"
+    },
+    "blade_id": "BL-PRD-912965-03"
+  },
+  {
+    "id": "BX-14-04",
+    "en_name": "HELLSSCYTHE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 35,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-04 惡魔紅鐮",
+      "en-US": "BX-14-04 HELLSSCYTHE",
+      "ja-JP": "BX-14-04 ヘルズサイズ"
+    },
+    "description": {
+      "zh-TW": "BX-14-04 惡魔紅鐮4-80LF中收錄。\n設有4片下旋刃，擅長破壞對手的姿態。",
+      "en-US": "Found in the BX-14-04 HELLSSCYTHE 4-80LF.\nFour smash BLADES make it easier to unbalance the opponent.",
+      "ja-JP": "BX-14-04 ヘルズサイズ4-80LFに収録。\n4枚のスマッシュ刃で相手の体勢を崩すことに優れる。"
+    },
+    "blade_id": "BL-PRD-912965-04"
+  },
+  {
+    "id": "BX-14-05",
+    "en_name": "KNIGHTSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-05 騎士重盾",
+      "en-US": "BX-14-05 KNIGHTSHIELD",
+      "ja-JP": "BX-14-05 ナイトシールド"
+    },
+    "description": {
+      "zh-TW": "BX-14-05 騎士重盾4-60LF中收錄。\n設有6片防禦刃，採用容易吸收衝擊的緩衝構造。",
+      "en-US": "Found in the BX-14-05 KNIGHTSHIELD 4-60LF.\nSix defensive BLADES structured to improve shock-absorption.",
+      "ja-JP": "BX-14-05 ナイトシールド4-60LFに収録。\n6枚の防御刃で衝撃を吸収しやすいダンパー構造を採用。"
+    },
+    "blade_id": "BL-PRD-912965-05"
+  },
+  {
+    "id": "BX-14-06",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX14_list.png",
+    "name": {
+      "zh-TW": "BX-14-06 魔導幻箭",
+      "en-US": "BX-14-06 WIZARDARROW",
+      "ja-JP": "BX-14-06 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-14-06 魔導幻箭3-60T中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-14-06 WIZARDARROW 3-60T.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-14-06 ウィザードアロー3-60Tに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-912965-06"
+  },
+  {
+    "id": "BX-15",
+    "en_name": "LEONCLAW",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 40,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX15_list.png",
+    "name": {
+      "zh-TW": "BX-15 雄獅獵爪",
+      "en-US": "BX-15 LEONCLAW",
+      "ja-JP": "BX-15 レオンクロー"
+    },
+    "description": {
+      "zh-TW": "BX-15 雄獅獵爪5-60P中收錄。\n同時具備攻擊刃與防禦刃，設計上可透過調整射擊方法來發揮不同性能。",
+      "en-US": "Found in the BX-15 LEONCLAW 5-60P.\nA design that combines offensive and defensive BLADES, allowing for a variety of launching styles.",
+      "ja-JP": "BX-15 レオンクロー5-60Pに収録。\n攻撃刃と防御刃を併せ持ち、異なる性能をシュート方法で使い分け可能な設計。"
+    },
+    "blade_id": "BL-PRD-913030-00"
+  },
+  {
+    "id": "BX-16-01",
+    "en_name": "VIPERTAIL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 20,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX16_list.png",
+    "name": {
+      "zh-TW": "BX-16-01 王蛇鞭尾",
+      "en-US": "BX-16-01 VIPERTAIL",
+      "ja-JP": "BX-16-01 ヴァイパーテイル"
+    },
+    "description": {
+      "zh-TW": "BX-16-01 王蛇鞭尾5-80O中收錄。\n向下突出的6片戰刃，擅長從上方削減對手的持久力。",
+      "en-US": "Found in the BX-16-01 VIPERTAIL 5-80O.\nSix pointed downward-facing BLADES make it easier to chip away at the opponent's STAMINA from above.",
+      "ja-JP": "BX-16-01 ヴァイパーテイル5-80Oに収録。\n下向きに尖った6枚の刃で相手の持久力を上から削り取ることに優れる。"
+    },
+    "blade_id": "BL-PRD-912972-01"
+  },
+  {
+    "id": "BX-16-02",
+    "en_name": "VIPERTAIL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 20,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX16_list.png",
+    "name": {
+      "zh-TW": "BX-16-02 王蛇鞭尾",
+      "en-US": "BX-16-02 VIPERTAIL",
+      "ja-JP": "BX-16-02 ヴァイパーテイル"
+    },
+    "description": {
+      "zh-TW": "BX-16-02 王蛇鞭尾4-60F中收錄。\n向下突出的6片戰刃，擅長從上方削減對手的持久力。",
+      "en-US": "Found in the BX-16-02 VIPERTAIL 4-60F.\nSix pointed downward-facing BLADES make it easier to chip away at the opponent's STAMINA from above.",
+      "ja-JP": "BX-16-02 ヴァイパーテイル4-60Fに収録。\n下向きに尖った6枚の刃で相手の持久力を上から削り取ることに優れる。"
+    },
+    "blade_id": "BL-PRD-912972-02"
+  },
+  {
+    "id": "BX-16-03",
+    "en_name": "VIPERTAIL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 20,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX16_list.png",
+    "name": {
+      "zh-TW": "BX-16-03 王蛇鞭尾",
+      "en-US": "BX-16-03 VIPERTAIL",
+      "ja-JP": "BX-16-03 ヴァイパーテイル"
+    },
+    "description": {
+      "zh-TW": "BX-16-03 王蛇鞭尾3-80HN中收錄。\n向下突出的6片戰刃，擅長從上方削減對手的持久力。",
+      "en-US": "Found in the BX-16-03 VIPERTAIL 3-80HN.\nSix pointed downward-facing BLADES make it easier to chip away at the opponent's STAMINA from above.",
+      "ja-JP": "BX-16-03 ヴァイパーテイル3-80HNに収録。\n下向きに尖った6枚の刃で相手の持久力を上から削り取ることに優れる。"
+    },
+    "blade_id": "BL-PRD-912972-03"
+  },
+  {
+    "id": "BX-17-01",
+    "en_name": "DRANSWORD",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX17_list.png",
+    "name": {
+      "zh-TW": "BX-17-01 蒼龍神劍 火紅版",
+      "en-US": "BX-17-01 DRANSWORD Red Ver.",
+      "ja-JP": "BX-17-01 ドランソード レッドVer."
+    },
+    "description": {
+      "zh-TW": "BX-17-01 蒼龍神劍3-60F 火紅Ver.中收錄。\n設有3片上鉤刃，擅長將對手往斜上方撞飛。",
+      "en-US": "Found in the BX-17-01 DRANSWORD 3-60FRedVer.\nThree upper BLADES make it easier to knock opponents up at an angle.",
+      "ja-JP": "BX-17-01 ドランソード3-60F レッドVer.に収録。\n3枚のアッパー刃で相手を斜め上に弾き飛ばすことに優れる。"
+    },
+    "blade_id": "BL-PRD-913047-01"
+  },
+  {
+    "id": "BX-17-02",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX17_list.png",
+    "name": {
+      "zh-TW": "BX-17-02 魔導幻箭 水藍版",
+      "en-US": "BX-17-02 WIZARDARROW Blue Ver.",
+      "ja-JP": "BX-17-02 ウィザードアロー ブルーVer."
+    },
+    "description": {
+      "zh-TW": "BX-17-02 魔導幻箭4-80B 藍Ver.中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-17-02 WIZARDARROW 4-80B Blue Ver.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-17-02 ウィザードアロー4-80B ブルーVer.に収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-913047-02"
+  },
+  {
+    "id": "BX-19",
+    "en_name": "RHINOHORN",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 50,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX19_list.png",
+    "name": {
+      "zh-TW": "BX-19 戰犀重角",
+      "en-US": "BX-19 RHINOHORN",
+      "ja-JP": "BX-19 ライノホーン"
+    },
+    "description": {
+      "zh-TW": "BX-19 戰犀重角3-80S中收錄。\n金屬部分向內壓縮，重量偏向中央的構造設計，即使是強力衝擊也難以瓦解其姿態。",
+      "en-US": "Found in the BX-19 RHINOHORN 3-80S.\nResistant to unbalancing even by powerful impact, thanks to metal on the inside shifting the center of gravity inward.",
+      "ja-JP": "BX-19 ライノホーン3-80Sに収録。\n内側にメタルを凝縮した内重心構造により、強い衝撃でも体勢が崩れにくい設計。"
+    },
+    "blade_id": "BL-PRD-913061-00"
+  },
+  {
+    "id": "BX-20-01",
+    "en_name": "DRANDAGGER",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX20_list.png",
+    "name": {
+      "zh-TW": "BX-20-01 蒼龍利刃",
+      "en-US": "BX-20-01 DRANDAGGER",
+      "ja-JP": "BX-20-01 ドランダガー"
+    },
+    "description": {
+      "zh-TW": "BX-20-01 蒼龍利刃4-60R中收錄。\n設有6片攻擊刃，擅長連續攻擊對手。",
+      "en-US": "Found in the BX-20-01 DRANDAGGER 4-60R.\nSix attack BLADES make it easier to unleash consecutive attacks.",
+      "ja-JP": "BX-20-01 ドランダガー4-60Rに収録。\n6枚の攻撃刃で相手を連打することに優れる。"
+    },
+    "blade_id": "BL-PRD-913078-01"
+  },
+  {
+    "id": "BX-20-02",
+    "en_name": "SHARKEDGE",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX20_list.png",
+    "name": {
+      "zh-TW": "BX-20-02 鮫鯊鋒鰭",
+      "en-US": "BX-20-02 SHARKEDGE",
+      "ja-JP": "BX-20-02 シャークエッジ"
+    },
+    "description": {
+      "zh-TW": "BX-20-02 鮫鯊鋒鰭3-80F中收錄。\n具備大角度的上鉤刃設計，可鑽入對手懷中，並從低位置將其向上彈飛。",
+      "en-US": "Found in the BX-20-02 SHARKEDGE 3-80F.\nSharply-angled upper BLADES make it easier to get in close to the opponent and flip them from a low position.",
+      "ja-JP": "BX-20-02 シャークエッジ3-80Fに収録。\n急角度のアッパー刃で相手の懐に潜り込み、低い位置から跳ね上げる設計。"
+    },
+    "blade_id": "BL-PRD-913078-02"
+  },
+  {
+    "id": "BX-20-03",
+    "en_name": "KNIGHTSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX20_list.png",
+    "name": {
+      "zh-TW": "BX-20-03 騎士重盾",
+      "en-US": "BX-20-03 KNIGHTSHIELD",
+      "ja-JP": "BX-20-03 ナイトシールド"
+    },
+    "description": {
+      "zh-TW": "BX-20-03 騎士重盾5-80T中收錄。\n設有6片防禦刃，採用容易吸收衝擊的緩衝構造。",
+      "en-US": "Found in the BX-20-03 KNIGHTSHIELD 5-80T.\nSix defensive BLADES structured to improve shock-absorption.",
+      "ja-JP": "BX-20-03 ナイトシールド5-80Tに収録。\n6枚の防御刃で衝撃を吸収しやすいダンパー構造を採用。"
+    },
+    "blade_id": "BL-PRD-913078-03"
+  },
+  {
+    "id": "BX-21-01",
+    "en_name": "HELLSCHAIN",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 40,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX21_list.png",
+    "name": {
+      "zh-TW": "BX-21-01 惡魔鎖鏈",
+      "en-US": "BX-21-01 HELLSCHAIN",
+      "ja-JP": "BX-21-01 ヘルズチェイン"
+    },
+    "description": {
+      "zh-TW": "BX-21-01 惡魔鎖鏈5-60HT中收錄。\n性能隨高度改變的2層構造設計，分為化勁用下部戰刃與撞擊用上部戰刃。",
+      "en-US": "Found in the BX-21-01 HELLSCHAIN 5-60HT.\nPerformance varies depending on HEIGHT, with lower BLADES optimised for evasion and upper BLADES for repelling opponents.",
+      "ja-JP": "BX-21-01 ヘルズチェイン5-60HTに収録。\n高さによって性能が変わる、いなす下段刃と弾く上段刃の2層構造設計。"
+    },
+    "blade_id": "BL-PRD-913085-01"
+  },
+  {
+    "id": "BX-21-02",
+    "en_name": "KNIGHTLANCE",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 60,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX21_list.png",
+    "name": {
+      "zh-TW": "BX-21-02 騎士長槍",
+      "en-US": "BX-21-02 KNIGHTLANCE",
+      "ja-JP": "BX-21-02 ナイトランス"
+    },
+    "description": {
+      "zh-TW": "BX-21-02 騎士長槍3-60LF中收錄。\n戰刃設計在偏高的位置，擅長壓制對手的攻擊。",
+      "en-US": "Found in the BX-21-02 KNIGHTLANCE 3-60LF.\nHigh BLADE position makes it easier to hold back the opponent's attacks.",
+      "ja-JP": "BX-21-02 ナイトランス3-60LFに収録。\n刃の位置が高めに設計され、相手の攻撃を押さえつけることに優れる。"
+    },
+    "blade_id": "BL-PRD-913085-02"
+  },
+  {
+    "id": "BX-21-03",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX21_list.png",
+    "name": {
+      "zh-TW": "BX-21-03 魔導幻箭",
+      "en-US": "BX-21-03 WIZARDARROW",
+      "ja-JP": "BX-21-03 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-21-03 魔導幻箭4-80N中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-21-03 WIZARDARROW 4-80N.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-21-03 ウィザードアロー4-80Nに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-913085-03"
+  },
+  {
+    "id": "BX-22",
+    "en_name": "DRANSWORD",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX22_list.png",
+    "name": {
+      "zh-TW": "BX-22 蒼龍神劍",
+      "en-US": "BX-22 DRANSWORD",
+      "ja-JP": "BX-22 ドランソード"
+    },
+    "description": {
+      "zh-TW": "BX-22 蒼龍神劍3-60F中收錄。\n設有3片上鉤刃，擅長將對手往斜上方撞飛。",
+      "en-US": "Found in the BX-22 DRANSWORD 3-60F.\nThree upper BLADES make it easier to knock opponents up at an angle.",
+      "ja-JP": "BX-22 ドランソード3-60Fに収録。\n3枚のアッパー刃で相手を斜め上に弾き飛ばすことに優れる。"
+    },
+    "blade_id": "BL-PRD-913139-00"
+  },
+  {
+    "id": "BX-24-01",
+    "en_name": "WYVERNGALE",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 40,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-01 飛龍旋翼",
+      "en-US": "BX-24-01 WYVERNGALE",
+      "ja-JP": "BX-24-01 ワイバーンゲイル"
+    },
+    "description": {
+      "zh-TW": "BX-24-01 飛龍旋翼5-80GB中收錄。\n流線型的4片戰刃會減少空氣阻力，擅長持續旋轉。",
+      "en-US": "Found in the BX-24-01 WYVERNGALE 5-80GB.\nFour streamlined BLADES which reduce air resistance, allowing for sustained spinning.",
+      "ja-JP": "BX-24-01 ワイバーンゲイル5-80GBに収録。\n流線形状の4枚刃が空気抵抗を低減し、回り続けることに優れる。"
+    },
+    "blade_id": "BL-PRD-913108-01"
+  },
+  {
+    "id": "BX-24-02",
+    "en_name": "WYVERNGALE",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 40,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-02 飛龍旋翼",
+      "en-US": "BX-24-02 WYVERNGALE",
+      "ja-JP": "BX-24-02 ワイバーンゲイル"
+    },
+    "description": {
+      "zh-TW": "BX-24-02 飛龍旋翼3-60T中收錄。\n流線型的4片戰刃會減少空氣阻力，擅長持續旋轉。",
+      "en-US": "Found in the BX-24-02 WYVERNGALE 3-60T.\nFour streamlined BLADES which reduce air resistance, allowing for sustained spinning.",
+      "ja-JP": "BX-24-02 ワイバーンゲイル3-60Tに収録。\n流線形状の4枚刃が空気抵抗を低減し、回り続けることに優れる。"
+    },
+    "blade_id": "BL-PRD-913108-02"
+  },
+  {
+    "id": "BX-24-03",
+    "en_name": "KNIGHTLANCE",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 60,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-03 騎士長槍",
+      "en-US": "BX-24-03 KNIGHTLANCE",
+      "ja-JP": "BX-24-03 ナイトランス"
+    },
+    "description": {
+      "zh-TW": "BX-24-03 騎士長槍4-60GB中收錄。\n戰刃設計在偏高的位置，擅長壓制對手的攻擊。",
+      "en-US": "Found in the BX-24-03 KNIGHTLANCE 4-60GB.\nHigh BLADE position makes it easier to hold back the opponent's attacks.",
+      "ja-JP": "BX-24-03 ナイトランス4-60GBに収録。\n刃の位置が高めに設計され、相手の攻撃を押さえつけることに優れる。"
+    },
+    "blade_id": "BL-PRD-913108-03"
+  },
+  {
+    "id": "BX-24-04",
+    "en_name": "VIPERTAIL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 20,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-04 王蛇鞭尾",
+      "en-US": "BX-24-04 VIPERTAIL",
+      "ja-JP": "BX-24-04 ヴァイパーテイル"
+    },
+    "description": {
+      "zh-TW": "BX-24-04 王蛇鞭尾5-60F中收錄。\n向下突出的6片戰刃，擅長從上方削減對手的持久力。",
+      "en-US": "Found in the BX-24-04 VIPERTAIL 5-60F.\nSix pointed downward-facing BLADES make it easier to chip away at the opponent's STAMINA from above.",
+      "ja-JP": "BX-24-04 ヴァイパーテイル5-60Fに収録。\n下向きに尖った6枚の刃で相手の持久力を上から削り取ることに優れる。"
+    },
+    "blade_id": "BL-PRD-913108-04"
+  },
+  {
+    "id": "BX-24-05",
+    "en_name": "LEONCLAW",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 40,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-05 雄獅獵爪",
+      "en-US": "BX-24-05 LEONCLAW",
+      "ja-JP": "BX-24-05 レオンクロー"
+    },
+    "description": {
+      "zh-TW": "BX-24-05 雄獅獵爪3-80HN中收錄。\n同時具備攻擊刃與防禦刃，設計上可透過調整射擊方法來發揮不同性能。",
+      "en-US": "Found in the BX-24-05 LEONCLAW 3-80HN.\nA design that combines offensive and defensive BLADES, allowing for a variety of launching styles.",
+      "ja-JP": "BX-24-05 レオンクロー3-80HNに収録。\n攻撃刃と防御刃を併せ持ち、異なる性能をシュート方法で使い分け可能な設計。"
+    },
+    "blade_id": "BL-PRD-913108-05"
+  },
+  {
+    "id": "BX-24-06",
+    "en_name": "WIZARDARROW",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/BX24_list.png",
+    "name": {
+      "zh-TW": "BX-24-06 魔導幻箭",
+      "en-US": "BX-24-06 WIZARDARROW",
+      "ja-JP": "BX-24-06 ウィザードアロー"
+    },
+    "description": {
+      "zh-TW": "BX-24-06 魔導幻箭4-80GB中收錄。\n以2片大型圓形刃產生強大離心力，設計上重量偏向外側。",
+      "en-US": "Found in the BX-24-06 WIZARDARROW 4-80GB.\nTwo large disc BLADES allow for an outward-leaning weight, resulting in a strong centrifugal force.",
+      "ja-JP": "BX-24-06 ウイザードアロー4-80GBに収録。\n2枚の大型円形刃で強い遠心力を生み出す外重心の設計。"
+    },
+    "blade_id": "BL-PRD-913108-06"
+  },
+  {
+    "id": "BX-26",
+    "en_name": "UNICORNSTING",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 35,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX26_list.png",
+    "name": {
+      "zh-TW": "BX-26 幻獸刺心",
+      "en-US": "BX-26 UNICORNSTING",
+      "ja-JP": "BX-26 ユニコーンスティング"
+    },
+    "description": {
+      "zh-TW": "BX-26 幻獸刺心5-60GP中收錄。\n憑藉左右造型差異巨大的鋼鐵戰刃設計，使其構造上攻防兼備。",
+      "en-US": "Found in the BX-26 UNICORNSTING 5-60GP.\nThe asymmetrical BLADE design offers both excellent attack and defensive abilities.",
+      "ja-JP": "BX-26 ユニコーンスティング5-60GPに収録。\n左右のブレード形状が大きく異なる設計で、攻撃と防御を併せ持つ構造。"
+    },
+    "blade_id": "BL-PRD-914464-00"
+  },
+  {
+    "id": "BX-27-01",
+    "en_name": "SPHINXCOWL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 55,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/BX27_list.png",
+    "name": {
+      "zh-TW": "BX-27-01 魔獸護甲",
+      "en-US": "BX-27-01 SPHINXCOWL",
+      "ja-JP": "BX-27-01 スフィンクスカウル"
+    },
+    "description": {
+      "zh-TW": "BX-27-01 魔獸護甲9-80GN中收錄。\n較圓形的鋼鐵戰刃，有著9枚刃的平均配置，能夠化解全方位的攻擊並加以反擊。",
+      "en-US": "Found in the BX-27-01 SPHINXCOWL 9-80G.\nThe 9 striking BLADES are arranged in a circular structure/pattern which disperses and repels attacks from various directions.",
+      "ja-JP": "BX-27-01 スフィンクスカウル9-80GNに収録。\n円形に配置された連打9枚刃により、様々な方向からの攻撃を分散し弾き返す構造。"
+    },
+    "blade_id": "BL-PRD-913115-01"
+  },
+  {
+    "id": "BX-27-02",
+    "en_name": "SPHINXCOWL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 55,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/BX27_list.png",
+    "name": {
+      "zh-TW": "BX-27-02 魔獸護甲",
+      "en-US": "BX-27-02 SPHINXCOWL",
+      "ja-JP": "BX-27-02 スフィンクスカウル"
+    },
+    "description": {
+      "zh-TW": "BX-27-02 魔獸護甲4-80HT中收錄。\n較圓形的鋼鐵戰刃，有著9枚刃的平均配置，能夠化解全方位的攻擊並加以反擊。",
+      "en-US": "Found in the BX-27-02 SPHINXCOWL 4-80HT.\nThe 9 striking BLADES are arranged in a circular structure/pattern which disperses and repels attacks from various directions.",
+      "ja-JP": "BX-27-02 スフィンクスカウル4-80HTに収録。\n円形に配置された連打9枚刃により、様々な方向からの攻撃を分散し弾き返す構造。"
+    },
+    "blade_id": "BL-PRD-913115-02"
+  },
+  {
+    "id": "BX-27-03",
+    "en_name": "SPHINXCOWL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 55,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/BX27_list.png",
+    "name": {
+      "zh-TW": "BX-27-03 魔獸護甲",
+      "en-US": "BX-27-03 SPHINXCOWL",
+      "ja-JP": "BX-27-03 スフィンクスカウル"
+    },
+    "description": {
+      "zh-TW": "BX-27-03 魔獸護甲5-60O中收錄。\n較圓形的鋼鐵戰刃，有著9枚刃的平均配置，能夠化解全方位的攻擊並加以反擊。",
+      "en-US": "Found in the BX-27-03 SPHINXCOWL 5-60O.\nThe 9 striking BLADES are arranged in a circular structure/pattern which disperses and repels attacks from various directions.",
+      "ja-JP": "BX-27-03 スフィンクスカウル5-60Oに収録。\n円形に配置された連打9枚刃により、様々な方向からの攻撃を分散し弾き返す構造。"
+    },
+    "blade_id": "BL-PRD-913115-03"
+  },
+  {
+    "id": "BX-31-01",
+    "en_name": "TYRANNOBEAT",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 30,
+      "stamina": 5
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-01 暴龍霸擊",
+      "en-US": "BX-31-01 TYRANNOBEAT",
+      "ja-JP": "BX-31-01 ティラノビート"
+    },
+    "description": {
+      "zh-TW": "BX-31-01 暴龍霸擊4-70Q中收錄。\n8枚刃且鋸齒狀的造型，擅長發揮不規則的打擊。",
+      "en-US": "Included in BX-31-01 TYRANNOBEAT 4-70Q.\nIt has eight thick BLADES that protrude in a jagged manner in the vertical direction, making it excellent for delivering irregular blows.",
+      "ja-JP": "BX-31-01 ティラノビート4-70Qに収録。\n上下方向にギザギザと突出した分厚い8枚刃で、不規則な打撃を与えることに優れる。"
+    },
+    "blade_id": "BL-PRD-914532-01"
+  },
+  {
+    "id": "BX-31-02",
+    "en_name": "TYRANNOBEAT",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 30,
+      "stamina": 5
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-02 暴龍霸擊",
+      "en-US": "BX-31-02 TYRANNOBEAT",
+      "ja-JP": "BX-31-02 ティラノビート"
+    },
+    "description": {
+      "zh-TW": "BX-31-02 暴龍霸擊3-60S中收錄。\n8枚刃且鋸齒狀的造型，擅長發揮不規則的打擊。",
+      "en-US": "Included in BX-31-02 TYRANNOBEAT 3-60S.\nIt has eight thick BLADES that protrude in a jagged manner in the vertical direction, making it excellent for delivering irregular blows.",
+      "ja-JP": "BX-31-02 ティラノビート3-60Sに収録。\n上下方向にギザギザと突出した分厚い8枚刃で、不規則な打撃を与えることに優れる。"
+    },
+    "blade_id": "BL-PRD-914532-02"
+  },
+  {
+    "id": "BX-31-03",
+    "en_name": "HELLSCHAIN",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 40,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-03 惡魔鎖鏈",
+      "en-US": "BX-31-03 HELLSCHAIN",
+      "ja-JP": "BX-31-03 ヘルズチェイン"
+    },
+    "description": {
+      "zh-TW": "BX-31-03 惡魔鎖鏈9-80O中收錄。\n性能隨高度改變的2層構造設計，分為抵銷旋轉用的下旋刃與重視反擊用的上旋刃。",
+      "en-US": "Included in BX-31-03 HELLSCHAIN 9-80O.\nPerformance varies depending on HEIGHT, with lower BLADES optimised for evasion and upper BLADES for repelling opponents.",
+      "ja-JP": "BX-31-03 ヘルズチェイン9-80Oに収録。\n高さによって性能が変わる、いなす下段刃と弾く上段刃の2層構造設計。"
+    },
+    "blade_id": "BL-PRD-914532-03"
+  },
+  {
+    "id": "BX-31-04",
+    "en_name": "DRANDAGGER",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-04 蒼龍利刃",
+      "en-US": "BX-31-04 DRANDAGGER",
+      "ja-JP": "BX-31-04 ドランダガー"
+    },
+    "description": {
+      "zh-TW": "BX-31-04 蒼龍利刃4-70P中收錄。\n設有6片攻擊刃，擅長連續攻擊對手。",
+      "en-US": "Included in BX-31-04 DRANDAGGER 4-70P.\nSix attack BLADES make it easier to unleash consecutive attacks.",
+      "ja-JP": "BX-31-04 ドランダガー4-70Pに収録。\n6枚の攻撃刃で相手を連打することに優れる。"
+    },
+    "blade_id": "BL-PRD-914532-04"
+  },
+  {
+    "id": "BX-31-05",
+    "en_name": "SHARKEDGE",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-05 鮫鯊鋒鰭",
+      "en-US": "BX-31-05 SHARKEDGE",
+      "ja-JP": "BX-31-05 シャークエッジ"
+    },
+    "description": {
+      "zh-TW": "BX-31-05 鮫鯊鋒鰭1-60Q中收錄。\n具備大角度的上鉤刃設計，可鑽入對手懷中，並從低位置將其向上彈飛。",
+      "en-US": "Included in BX-31-05 SHARKEDGE 1-60Q.\nSharply-angled upper BLADES make it easier to get in close to the opponent and flip them from a low position. ",
+      "ja-JP": "BX-31-05 シャークエッジ 1-60Qに収録。\n急角度のアッパー刃で相手の懐に潜り込み、低い位置から跳ね上げる設計。"
+    },
+    "blade_id": "BL-PRD-914532-05"
+  },
+  {
+    "id": "BX-31-06",
+    "en_name": "RHINOHORN",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 50,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX31_list.png",
+    "name": {
+      "zh-TW": "BX-31-06 戰犀重角",
+      "en-US": "BX-31-06 RHINOHORN",
+      "ja-JP": "BX-31-06 ライノホーン"
+    },
+    "description": {
+      "zh-TW": "BX-31-06 戰犀重角5-80Q中收錄。\n金屬部分向內壓縮，重量偏向中央的構造設計，即使是強力衝擊也難以瓦解其姿態。",
+      "en-US": "Included in BX-31-06 RHINOHORN 5-80Q.\nResistant to unbalancing even by powerful impact, thanks to metal on the inside shifting the center of gravity inward.",
+      "ja-JP": "BX-31-06 ライノホーン5-80Qに収録。\n内側にメタルを凝縮した内重心構造により、強い衝撃でも体勢が崩れにくい設計。"
+    },
+    "blade_id": "BL-PRD-914532-06"
+  },
+  {
+    "id": "BX-33",
+    "en_name": "WEISSTIGER",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 30,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX33_list.png",
+    "name": {
+      "zh-TW": "BX-33 皓戰猛虎",
+      "en-US": "BX-33 WEISSTIGER",
+      "ja-JP": "BX-33 ヴァイスタイガー"
+    },
+    "description": {
+      "zh-TW": "BX-33 皓戰猛虎3-60U中收錄。\n結合了擊飛刃、衝擊刃、下壓刃來對應各種性能的設計。",
+      "en-US": "Included in BX-33 WEISSTIGER 3-60U.\nA BLADE that has three functions: upper BLADE, damper BLADE, and smash BLADE to respond to various performances.",
+      "ja-JP": "BX-33 ヴァイスタイガー3-60Uに収録。\nアッパー刃・ダンパー刃・スマッシュ刃の3つの性能を併せ持つブレード。"
+    },
+    "blade_id": "BL-PRD-914556-00"
+  },
+  {
+    "id": "BX-34",
+    "en_name": "COBALTDRAGOON",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 15,
+      "stamina": 25
+    },
+    "rotation": "left",
+    "image": "/images/products/BX34_list.png",
+    "name": {
+      "zh-TW": "BX-34 蒼穹龍騎士",
+      "en-US": "BX-34 COBALTDRAGOON",
+      "ja-JP": "BX-34 コバルトドラグーン"
+    },
+    "description": {
+      "zh-TW": "BX-34 蒼穹龍騎士2-60C中收錄。\n左迴旋設計的鋼鐵戰刃，由4枚攻擊刃的設計創造出優異的攻擊性能。",
+      "en-US": "Included in BX-34 COBALTDRAGOON 2-60C.\nA left spinning BEY equipped with 4 attack BLADES with high repelling performance",
+      "ja-JP": "BX-34 コバルトドラグーン2-60Cに収録。\n先端が分厚い4枚のアッパー刃による高い弾き性能を持った左回転ブレード。"
+    },
+    "blade_id": "BL-PRD-914563-00"
+  },
+  {
+    "id": "BX-35-01",
+    "en_name": "BLACKSHELL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 65,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-01 玄冥戰甲",
+      "en-US": "BX-35-01 BLACKSHELL",
+      "ja-JP": "BX-35-01 ブラックシェル"
+    },
+    "description": {
+      "zh-TW": "BX-35-01 玄冥戰甲4-60D中收錄。\n鋼鐵戰刃8枚向下傾斜的攻擊刃，具有防止低位攻擊的設計。",
+      "en-US": "Included in BX-35-01 BLACKSHELL 4-60D.\nThe 8 downward-sloping attack BLADES are designed to defend against attacks from low position.",
+      "ja-JP": "BX-35-01 ブラックシェル4-60Dに収録。\n外周にかけて下向きの傾斜がついた8枚の防御刃により、低い位置からの攻撃を防ぐ構造。"
+    },
+    "blade_id": "BL-PRD-914570-01"
+  },
+  {
+    "id": "BX-35-02",
+    "en_name": "BLACKSHELL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 65,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-02 玄冥戰甲",
+      "en-US": "BX-35-02 BLACKSHELL",
+      "ja-JP": "BX-35-02 ブラックシェル"
+    },
+    "description": {
+      "zh-TW": "BX-35-02 玄冥戰甲9-80B中收錄。\n鋼鐵戰刃8枚向下傾斜的攻擊刃，具有防止低位攻擊的設計。",
+      "en-US": "Included in BX-35-02 BLACKSHELL 9-80B.\nThe 8 downward-sloping attack BLADES are designed to defend against attacks from low position.",
+      "ja-JP": "BX-35-02 ブラックシェル9-80Bに収録。\n外周にかけて下向きの傾斜がついた8枚の防御刃により、低い位置からの攻撃を防ぐ構造。"
+    },
+    "blade_id": "BL-PRD-914570-02"
+  },
+  {
+    "id": "BX-35-03",
+    "en_name": "UNICORNSTING",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 35,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-03 幻獸刺心",
+      "en-US": "BX-35-03 UNICORNSTING",
+      "ja-JP": "BX-35-03 ユニコーンスティング"
+    },
+    "description": {
+      "zh-TW": "BX-35-03 幻獸刺心3-70D中收錄。\n憑藉左右造型差異巨大的鋼鐵戰刃設計，使其構造上攻防兼備。",
+      "en-US": "Included in BX-35-03 UNICORNSTING 3-70D.\nThe asymmetrical BLADE design offers both excellent attack and defensive abilities.",
+      "ja-JP": "BX-35-03 ユニコーンスティング3-70Dに収録。\n左右のブレード形状が大きく異なる設計で、攻撃と防御を併せ持つ構造。"
+    },
+    "blade_id": "BL-PRD-914570-03"
+  },
+  {
+    "id": "BX-35-04",
+    "en_name": "WIZARDROD",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 25,
+      "stamina": 60
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-04 魔導神杖",
+      "en-US": "BX-35-04 WIZARDROD",
+      "ja-JP": "BX-35-04 ウィザードロッド"
+    },
+    "description": {
+      "zh-TW": "BX-35-04 魔導神杖1-60R中收錄。\n優秀的外重心及直徑較大的鋼鐵戰刃，能夠產生超群的旋轉離心力。",
+      "en-US": "Included in BX-35-04 WIZARDROD 1-60R.\nThe 5-BLADE shape with an external center of gravity and large diameter is specially designed to generate centrifugal force. ",
+      "ja-JP": "BX-35-04 ウィザードロッド1-60Rに収録。\n外重心かつ径の大きい5枚刃形状で、遠心力を生み出すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914570-04"
+  },
+  {
+    "id": "BX-35-05",
+    "en_name": "PHOENIXWING",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-05 鳳凰飛翼",
+      "en-US": "BX-35-05 PHOENIXWING",
+      "ja-JP": "BX-35-05 フェニックスウイング"
+    },
+    "description": {
+      "zh-TW": "BX-35-05 鳳凰飛翼5-80H中收錄。\n大型3枚上升攻擊刃能給予對手強力攻擊。",
+      "en-US": "Included in BX-35-05 PHOENIXWING 5-80H.\nWhen launched, the three heavy BLADES produces a high attack power",
+      "ja-JP": "BX-35-05 フェニックスウイング5-80Hに収録。\n大型のランチャーフックから連なる重厚な3枚刃で相手を強烈に弾く。"
+    },
+    "blade_id": "BL-PRD-914570-05"
+  },
+  {
+    "id": "BX-35-06",
+    "en_name": "VIPERTAIL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 20,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/BX35_list.png",
+    "name": {
+      "zh-TW": "BX-35-06 王蛇鞭尾",
+      "en-US": "BX-35-06 VIPERTAIL",
+      "ja-JP": "BX-35-06 ヴァイパーテイル"
+    },
+    "description": {
+      "zh-TW": "BX-35-06 王蛇鞭尾5-70D中收錄。\n向下突出的6片戰刃，擅長從上方削減對手的持久力。",
+      "en-US": "Included in BX-35-06 VIPERTAIL 5-70D.\nSix pointed downward-facing BLADES make it easier to chip away at the opponent's STAMINA from above.",
+      "ja-JP": "BX-35-06 ヴァイパーテイル5-70Dに収録。\n下向きに尖った6枚の刃で相手の持久力を上から削り取ることに優れる。"
+    },
+    "blade_id": "BL-PRD-914570-06"
+  },
+  {
+    "id": "BX-36-01",
+    "en_name": "WHALEWAVE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX36_list.png",
+    "name": {
+      "zh-TW": "BX-36-01 巨鯨怒濤",
+      "en-US": "BX-36-01 WHALEWAVE",
+      "ja-JP": "BX-36-01 ホエールウェーブ"
+    },
+    "description": {
+      "zh-TW": "BX-36-01 巨鯨怒濤5-80E中收錄。\n大直徑的5枚重擊刃，特化重擊對手使其失去平衡的鋼鐵戰刃。",
+      "en-US": "Included in BX-36-01 WHALEWAVE 5-80E.\nFive heavy-hitting BLADES with a large diameter are specialized steel BLADES that hit the opponent hard and make them lose their balance.",
+      "ja-JP": "BX-36-01 ホエールウェーブ5-80Eに収録。\n大径で遠心力のあるスマッシュ5枚刃で、相手に覆いかぶさるように連打する設計。"
+    },
+    "blade_id": "BL-PRD-914617-01"
+  },
+  {
+    "id": "BX-36-02",
+    "en_name": "WHALEWAVE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX36_list.png",
+    "name": {
+      "zh-TW": "BX-36-02 巨鯨怒濤",
+      "en-US": "BX-36-02 WHALEWAVE",
+      "ja-JP": "BX-36-02 ホエールウェーブ"
+    },
+    "description": {
+      "zh-TW": "BX-36-02 巨鯨怒濤4-70HN中收錄。\n大直徑的5枚重擊刃，特化重擊對手使其失去平衡的鋼鐵戰刃。",
+      "en-US": "Included in BX-36-02 WHALEWAVE 4-70HN.\nFive heavy-hitting BLADES with a large diameter are specialized steel BLADES that hit the opponent hard and make them lose their balance.",
+      "ja-JP": "BX-36-02 ホエールウェーブ4-70HNに収録。\n大径で遠心力のあるスマッシュ5枚刃で、相手に覆いかぶさるように連打する設計。"
+    },
+    "blade_id": "BL-PRD-914617-02"
+  },
+  {
+    "id": "BX-36-03",
+    "en_name": "WHALEWAVE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BX36_list.png",
+    "name": {
+      "zh-TW": "BX-36-03 巨鯨怒濤",
+      "en-US": "BX-36-03 WHALEWAVE",
+      "ja-JP": "BX-36-03 ホエールウェーブ"
+    },
+    "description": {
+      "zh-TW": "BX-36-03 巨鯨怒濤3-80GB中收錄。\n大直徑的5枚重擊刃，特化重擊對手使其失去平衡的鋼鐵戰刃。",
+      "en-US": "Included in BX-36-03 WHALEWAVE 3-80GB.\nFive heavy-hitting BLADES with a large diameter are specialized steel BLADES that hit the opponent hard and make them lose their balance.",
+      "ja-JP": "BX-36-03 ホエールウェーブ3-80GBに収録。\n大径で遠心力のあるスマッシュ5枚刃で、相手に覆いかぶさるように連打する設計。"
+    },
+    "blade_id": "BL-PRD-914617-03"
+  },
+  {
+    "id": "BX-37",
+    "en_name": "BEARSCRATCH",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 45,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX37_list.png",
+    "name": {
+      "zh-TW": "BX-37 悍熊猛爪",
+      "en-US": "BX-37 BEARSCRATCH",
+      "ja-JP": "BX-37 ベアスクラッチ"
+    },
+    "description": {
+      "zh-TW": "BX-37 悍熊猛爪5-60F中收錄。\n內重心的設計能夠承受較高的衝擊力。",
+      "en-US": "Included in BX-37 BEARSCRATCH 5-60F.\nThe design features a center of gravity structure concentrated in the small diameter, making it resistant to losing balance even when subjected to impact.",
+      "ja-JP": "BX-37 ベアスクラッチ5-60Fに収録。\n小径に凝縮された内重心構造で、衝撃を受けても体勢が崩れにくい設計。"
+    },
+    "blade_id": "BL-PRD-939481-00"
+  },
+  {
+    "id": "BX-38",
+    "en_name": "CRIMSONGARUDA",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 25,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX38_list.png",
+    "name": {
+      "zh-TW": "BX-38 赫燃天鳳",
+      "en-US": "BX-38 CRIMSONGARUDA",
+      "ja-JP": "BX-38 クリムゾンガルーダ"
+    },
+    "description": {
+      "zh-TW": "BX-38 赫燃天鳳4-70TP中收錄。\n鋼鐵戰刃在不同的高度中能發揮不同的性能。低高度強化打擊能力，高高度強化反擊能力。",
+      "en-US": "Included in BX-38 CRIMSONGARUDA 4-70TP.\nThe upper and lower parts of the blade have different performance, with the upper part being better for attacks with less stamina loss, and the lower part being better for counters.",
+      "ja-JP": "BX-38 クリムゾンガルーダ4-70TPに収録。\nブレード上下で異なる性能を持ち、上面はスタミナロスが少ない攻撃、底面はカウンターに優れる。"
+    },
+    "blade_id": "BL-PRD-939504-00"
+  },
+  {
+    "id": "BX-39-01",
+    "en_name": "SHELTERDRAKE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 40,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX39_list.png",
+    "name": {
+      "zh-TW": "BX-39-01 護城龍神",
+      "en-US": "BX-39-01 SHELTERDRAKE",
+      "ja-JP": "BX-39-01 シェルタードレイク"
+    },
+    "description": {
+      "zh-TW": "BX-39-01 護城龍神7-80GP中收錄。\n具有2枚對稱的高強度攻擊任所組成，特化離心力及耐力著稱的鋼鐵戰刃。",
+      "en-US": "Included in BX-39-01 SHELTERDRAKE 7-80GP.\nDesigned with two circular BLADES that balance centrifugal force endurance and parry defense.",
+      "ja-JP": "BX-39-01 シェルタードレイク7-80GPに収録。\n剛性の高い円形の2枚刃で遠心力持久と受け流し防御を両立した設計。"
+    },
+    "blade_id": "BL-PRD-939511-01"
+  },
+  {
+    "id": "BX-39-02",
+    "en_name": "SHELTERDRAKE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 40,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX39_list.png",
+    "name": {
+      "zh-TW": "BX-39-02 護城龍神",
+      "en-US": "BX-39-02 SHELTERDRAKE",
+      "ja-JP": "BX-39-02 シェルタードレイク"
+    },
+    "description": {
+      "zh-TW": "BX-39-02 護城龍神5-70O中收錄。\n具有2枚對稱的高強度攻擊任所組成，特化離心力及耐力著稱的鋼鐵戰刃。",
+      "en-US": "Included in BX-39-02 SHELTERDRAKE 5-70O.\nDesigned with two circular BLADES that balance centrifugal force endurance and parry defense.",
+      "ja-JP": "BX-39-02 シェルタードレイク5-70Oに収録。\n剛性の高い円形の2枚刃で遠心力持久と受け流し防御を両立した設計。"
+    },
+    "blade_id": "BL-PRD-939511-02"
+  },
+  {
+    "id": "BX-39-03",
+    "en_name": "SHELTERDRAKE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 40,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/BX39_list.png",
+    "name": {
+      "zh-TW": "BX-39-03 護城龍神",
+      "en-US": "BX-39-03 SHELTERDRAKE",
+      "ja-JP": "BX-39-03 シェルタードレイク"
+    },
+    "description": {
+      "zh-TW": "BX-39-03 護城龍神3-60D中收錄。\n具有2枚對稱的高強度攻擊任所組成，特化離心力及耐力著稱的鋼鐵戰刃。",
+      "en-US": "Included in BX-39-03 SHELTERDRAKE 3-60D.\nDesigned with two circular BLADES that balance centrifugal force endurance and parry defense.",
+      "ja-JP": "BX-39-03 シェルタードレイク3-60Dに収録。\n剛性の高い円形の2枚刃で遠心力持久と受け流し防御を両立した設計。"
+    },
+    "blade_id": "BL-PRD-939511-03"
+  },
+  {
+    "id": "BX-44",
+    "en_name": "TRICERAPRESS",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 65,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BX44_list.png",
+    "name": {
+      "zh-TW": "BX-44 三角強襲",
+      "en-US": "BX-44 TRICERAPRESS",
+      "ja-JP": "BX-44 トリケラプレス"
+    },
+    "description": {
+      "zh-TW": "BX-44 三角強襲M-85BS中收錄。\n配備大型發射器掛鉤的內重心結構設計，即使受到攻擊也難以被彈飛。",
+      "en-US": "Included in BX-44 TRICERAPRESSM-85BS.\nDesigned with an internal centre of gravity structure with a large launcher hook, making it difficult to be pushed away by an attack.",
+      "ja-JP": "BX-44 トリケラプレスM-85BSに収録。\n大型のランチャーフックを持つ内重心構造により、攻撃を受けても弾き飛ばされにくい設計。"
+    },
+    "blade_id": "BL-PRD-939528-00"
+  },
+  {
+    "id": "BX-45",
+    "en_name": "SAMURAICALIBUR",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 30,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BX45_list.png",
+    "name": {
+      "zh-TW": "BX-45 武士魂斬",
+      "en-US": "BX-45 SAMURAICALIBUR",
+      "ja-JP": "BX-45 サムライカリバー"
+    },
+    "description": {
+      "zh-TW": "BX-45 武士魂斬6-70M中收錄。\n同時擁有不同角度的大型戰刃與小型戰刃，水平時能保持防禦性能，傾斜時則發揮攻擊性能。",
+      "en-US": "Included in BX-45 SAMURAICALIBUR 6-70M.\nWith both a large and a small BLADE with different angles, it provides a defensive performance when horizontal and offensive performance when inclined.",
+      "ja-JP": "BX-45 サムライカリバー6-70Mに収録。\n角度の異なる大型刃と小型刃を併せ持ち、水平時は防御性能・傾斜時には攻撃性能を発揮。"
+    },
+    "blade_id": "BL-PRD-939580-00"
+  },
+  {
+    "id": "BX-46-02",
+    "en_name": "GOATTACKLE",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 13,
+      "defense": 65,
+      "stamina": 22
+    },
+    "rotation": "right",
+    "image": "/images/products/BX46_list.png",
+    "name": {
+      "zh-TW": "BX-46-02 戰羊阻截",
+      "en-US": "BX-46-02 GOATTACKLE",
+      "ja-JP": "BX-46-02 ゴートタックル"
+    },
+    "description": {
+      "zh-TW": "BX-46-02 戰羊阻截7-70T中收錄。\n透過朝下的8枚戰刃設計，徹底防禦來自低位的攻擊。",
+      "en-US": "Included in BX-46-02 GOATTACKLE 7-70T.\nThe eight downward-facing BLADES are excellent at preventing attacks from low positions.",
+      "ja-JP": "BX-46-02 ゴートタックル7-70Tに収録。\n下向きの8枚刃により、低い位置からの攻撃を防ぐことに優れる。"
+    },
+    "blade_id": "BL-PRD-997610-02"
+  },
+  {
+    "id": "BXG-04",
+    "en_name": "DRIGERSLASH",
+    "type": "balance",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 35,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/BXG04_list.png",
+    "name": {
+      "zh-TW": "BXG-04 銀牙烈虎",
+      "en-US": "BXG-04 DRIGERSLASH",
+      "ja-JP": "BXG-04 ドライガースラッシュ"
+    },
+    "description": {
+      "zh-TW": "BXG-04 銀牙烈虎4-80P收錄。\n圓形的2枚刃，攻防兼備的設計。",
+      "en-US": "Included in BXG-04 DRIGERSLASH 4-80P.\nTwo round BLADES, designed for both offense and defense.",
+      "ja-JP": "BXG-04 ドライガースラッシュ4-80Pに収録。\n円形ウイングを持つ2枚刃で、攻撃と防御を兼ね備えた設計。"
+    },
+    "blade_id": "BL-PRD-930341-00"
+  },
+  {
+    "id": "BXG-07-00",
+    "en_name": "LIGHTNING L-DRAGO",
+    "type": "attack",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20
+    },
+    "rotation": "left",
+    "image": "/images/products/BXG07_list.png",
+    "name": {
+      "zh-TW": "BXG-07-00 雷霆天龍 (上升攻擊型)",
+      "en-US": "BXG-07-00 LIGHTNING L-DRAGO (upper type)",
+      "ja-JP": "BXG-07-00 ライトニングエルドラゴ"
+    },
+    "description": {
+      "zh-TW": "BXG-07-00 雷霆天龍1-60F (上升攻擊型)中收錄。\n特化擊飛能力的左迴旋攻擊模式。",
+      "en-US": "Included in BXG-07-00 LIGHTNING L-DRAGO 1-60F (upper type).\nA design that emphasizes upper attacks, with three upper BLADEs pointing left.",
+      "ja-JP": "BXG-07-00 ライトニングエルドラゴ1-60F （アッパー型）に収録。左向きのアッパー刃を3か所に配置したアッパー攻撃重視の設計。"
+    },
+    "blade_id": "BL-PRD-930358-00"
+  },
+  {
+    "id": "BXG-07-01",
+    "en_name": "LIGHTNING L-DRAGO",
+    "type": "attack",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 30,
+      "stamina": 20
+    },
+    "rotation": "left",
+    "image": "/images/products/BXG07_list.png",
+    "name": {
+      "zh-TW": "BXG-07-01 雷霆天龍 (連擊型)",
+      "en-US": "BXG-07-01 LIGHTNING L-DRAGO (rapid-hit type)",
+      "ja-JP": "BXG-07-01 ライトニングエルドラゴ"
+    },
+    "description": {
+      "zh-TW": "BXG-07-01 雷霆天龍1-60F (連擊型)中收錄。\n特化連擊能力的左迴旋攻擊模式。",
+      "en-US": "Included in BXG-07-01 LIGHTNING L-DRAGO 1-60F (rapid-hit type).\nDesigned with an emphasis on rapid-hit attacks, with three left-facing attack BLADES.",
+      "ja-JP": "BXG-07-01 ライトニングエルドラゴ1-60F （連打型）に収録。左向きの連打刃を3か所に配置した連打攻撃重視の設計。"
+    },
+    "blade_id": "BL-PRD-930358-01"
+  },
+  {
+    "id": "BXG-11",
+    "en_name": "DRACIELSHIELD",
+    "type": "defense",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 50,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/BXG11_list.png",
+    "name": {
+      "zh-TW": "BXG-11 堅甲戰龜S",
+      "en-US": "BXG-11 DRACIELSHIELD",
+      "ja-JP": "BXG-11 ドラシエルシールド"
+    },
+    "description": {
+      "zh-TW": "BXG-11 堅甲戰龜S 7-60D中收錄。\n鋼鐵戰刃四周有許多凸起設計，能有效地抵禦攻擊。",
+      "en-US": "Included in BXG-11 DRACIELSHIELD 7-60D.\nThe protruding designs around the steel BLADE can effectively resist attacks.",
+      "ja-JP": "BXG-11 ドラシエルシールド7-60Dに収録。\nブレード外周の凹凸によるカウンター防御に優れた設計。"
+    },
+    "blade_id": "BL-PRD-945567-00"
+  },
+  {
+    "id": "BXG-13",
+    "en_name": "XENOXCALIBUR",
+    "type": "attack",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 25,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/BXG13_list.png",
+    "name": {
+      "zh-TW": "BXG-13 神力聖劍",
+      "en-US": "BXG-13 XENOXCALIBUR",
+      "ja-JP": "BXG-13 ゼノエクスカリバー"
+    },
+    "description": {
+      "zh-TW": "BXG-13 神力聖劍3-60GF中收錄。\n擁有大型劍形鋼鐵戰刃，擅長以強力的攻勢擊飛對手。",
+      "en-US": "Included in BXG-13 XENOXCALIBUR 3-60GF.\nWith a single large sword-shaped BLADE, it excels in hitting opponents with great force.",
+      "ja-JP": "BXG-13 ゼノエクスカリバー3-60GFに収録。\n剣型の大型1枚刃により、相手を強烈に弾くことに優れる。"
+    },
+    "blade_id": "BL-PRD-946823-00"
+  },
+  {
+    "id": "BXG-20",
+    "en_name": "ROCKLEONE",
+    "type": "defense",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 55,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/BXG20_list.png",
+    "name": {
+      "zh-TW": "BXG-20 巨岩雄獅",
+      "en-US": "BXG-20 ROCKLEONE",
+      "ja-JP": "BXG-20 ロックレオーネ"
+    },
+    "description": {
+      "zh-TW": "BXG-20 巨岩雄獅6-80GN中收錄。\n梯形六枚戰刃設計，有效化解攻擊並迅速反擊。",
+      "en-US": "Included in BXG-20 ROCKLEONE 6-80GN.\nDesigned with six trapezoidal-shaped BLADES to provide a counter while fending off an opponent's attack.",
+      "ja-JP": "BXG-20 ロックレオーネ6-80GNに収録。\n台形形状の6枚刃で相手の攻撃をいなしながらカウンターを与える設計。"
+    },
+    "blade_id": "BL-PRD-957492-00"
+  },
+  {
+    "id": "BXG-21",
+    "en_name": "STORMSPRIGGAN",
+    "type": "balance",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 40,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/BXG21_list.png",
+    "name": {
+      "zh-TW": "BXG-21 暴風巨神",
+      "en-US": "BXG-21 STORMSPRIGGAN",
+      "ja-JP": "BXG-21 ストームスプリガン"
+    },
+    "description": {
+      "zh-TW": "BXG-21 暴風巨神2-70M中收錄。\n上段兩枚戰刃能強化攻擊，下段兩枚戰刃專精防禦化解，兼具攻防雙重性能的設計。",
+      "en-US": "Included in BXG-21 STORMSPRIGGAN 2-70M.\nA design combining the upper two-bladed strong attack with the lower two-bladed parry defence, possessing both offensive and defensive capabilities.",
+      "ja-JP": "BXG-21 ストームスプリガン2-70Mに収録。\n強攻撃の上段2枚刃と、いなし防御の下段2枚刃が組み合わされ、攻防両方の性能を併せ持つ設計。"
+    },
+    "blade_id": "BL-PRD-997351-00"
+  },
+  {
+    "id": "BXG-22",
+    "en_name": "DRAGOONSTORM",
+    "type": "attack",
+    "tags": [
+      "bx",
+      "reprint"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 30,
+      "stamina": 15
+    },
+    "rotation": "left",
+    "image": "/images/products/BXG22_list.png",
+    "name": {
+      "zh-TW": "BXG-22 龍騎士S",
+      "en-US": "BXG-22 DRAGOONSTORM",
+      "ja-JP": "BXG-22 ドラグーンストーム"
+    },
+    "description": {
+      "zh-TW": "BXG-22 龍騎士S 4-60RA中收錄。\n左迴旋強化的四枚戰刃，可以有力地擊退對手。",
+      "en-US": "Included in BXG-22 DRAGOONSTORM 4-60RA.\nDesigned with 4 BLADES specialized for counterclockwise rotation to powerfully hit opponents.",
+      "ja-JP": "BXG-22 ドラグーンストーム4-60RAに収録。\n左回転に特化した4枚刃が相手を強力に弾く設計。"
+    },
+    "blade_id": "BL-PRD-099468-00"
+  },
+  {
+    "id": "CX-01",
+    "en_name": "DRANBRAVES",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 20,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX01_list.png",
+    "name": {
+      "zh-TW": "CX-01 蒼龍勇氣S",
+      "en-US": "CX-01 DRANBRAVES",
+      "ja-JP": "CX-01 ドランブレイブS"
+    },
+    "description": {
+      "zh-TW": "CX-01 蒼龍勇氣S 6-60V中收錄。\n藉由偏低的重心和下壓威力，能夠具體提高攻擊性能的改造配件。",
+      "en-US": "Included in CX-01 DRANBRAVES 6-60V.\nAttack improved with a low center of gravity and downward force.",
+      "ja-JP": "CX-01 ドランブレイブS 6-60Vに収録。\n低重心かつダウンフォースにより攻撃性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-939597-00"
+  },
+  {
+    "id": "CX-02",
+    "en_name": "WIZARDARCR",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 20,
+      "stamina": 60
+    },
+    "rotation": "right",
+    "image": "/images/products/CX02_list.png",
+    "name": {
+      "zh-TW": "CX-02 魔導至尊R",
+      "en-US": "CX-02 WIZARDARCR",
+      "ja-JP": "CX-02 ウィザードアークR"
+    },
+    "description": {
+      "zh-TW": "CX-02 魔導至尊R 4-55LO中收錄。\n藉由強化離心力來提高持續迴轉性能的改造配件。",
+      "en-US": "Included in CX-02 WIZARDARCR 4-55LO.\nCustomized with enhanced centrifugal force for improved rotational durability.",
+      "ja-JP": "CX-02 ウィザードアークR 4-55LOに収録。\n遠心力強化により回転持続性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-939603-00"
+  },
+  {
+    "id": "CX-03",
+    "en_name": "PERSEUSDARKB",
+    "type": "defense",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 60,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX03_list.png",
+    "name": {
+      "zh-TW": "CX-03 英仙幽冥B",
+      "en-US": "CX-03 PERSEUSDARKB",
+      "ja-JP": "CX-03 ペルセウスダークB"
+    },
+    "description": {
+      "zh-TW": "CX-03 英仙幽冥B 6-80W中收錄。\n具有衝擊吸收以及反彈攻擊這兩種防禦性能的特別改造配件。",
+      "en-US": "Included in CX-03 PERSEUSDARKB 6-80W.\nCustomization that combines two types of defensive performance: shock absorption and repulsion.",
+      "ja-JP": "CX-03 ペルセウスダークB 6-80Wに収録。\n衝撃吸収と弾き返す２つの防御性能をあわせ持つカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-939610-00"
+  },
+  {
+    "id": "CX-04-01",
+    "en_name": "DRANBRAVES",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 20,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX04_list.png",
+    "name": {
+      "zh-TW": "CX-04-01 蒼龍勇氣S 特別版",
+      "en-US": "CX-04-01 DRANBRAVES Special Ver.",
+      "ja-JP": "CX-04-01 ドランブレイブS スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "CX-04-01 蒼龍勇氣S 6-60V 特別Ver.中收錄。\n藉由偏低的重心和下壓威力，能夠具體提高攻擊性能的改造配件。",
+      "en-US": "Included in CX-04-01 DRANBRAVES 6-60V Special Ver.\nAttack improved with a low center of gravity and downward force.",
+      "ja-JP": "CX-04-01 ドランブレイブS 6-60V スペシャルVer.に収録。\n低重心かつダウンフォースにより攻撃性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-939634-01"
+  },
+  {
+    "id": "CX-04-02",
+    "en_name": "PERSEUSDARKB",
+    "type": "defense",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 60,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX04_list.png",
+    "name": {
+      "zh-TW": "CX-04-02 英仙幽冥B 特別版",
+      "en-US": "CX-04-02 PERSEUSDARKB Special Ver.",
+      "ja-JP": "CX-04-02 ペルセウスダークB スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "CX-04-02 英仙幽冥B 6-80W 特別Ver.中收錄。\n具有衝擊吸收以及反彈攻擊這兩種防禦性能的特別改造配件。",
+      "en-US": "Included in CX-04-02 PERSEUSDARKB 6-80W Special Ver.\nCustomization that combines two types of defensive performance: shock absorption and repulsion.",
+      "ja-JP": "CX-04-02 ペルセウスダークB 6-80W スペシャルVer.に収録。\n衝撃吸収と弾き返す２つの防御性能をあわせ持つカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-939634-02"
+  },
+  {
+    "id": "CX-05-01",
+    "en_name": "HELLSREAPERT",
+    "type": "balance",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 20,
+      "stamina": 40
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-01 惡魔獵魂T",
+      "en-US": "CX-05-01 HELLSREAPERT",
+      "ja-JP": "CX-05-01 ヘルズリーパーT"
+    },
+    "description": {
+      "zh-TW": "CX-05-01 惡魔獵魂T 4-70K中收錄。\n能輕易破壞對方攻勢的改造配件。透過模式更換，可以分別使用連擊和反擊兩種戰術。",
+      "en-US": "Included in CX-05-01 HELLSREAPERT 4-70K.\nBy combining a BLADE that can switch between two modes with a BIT that has both offensive and defensive capabilities, you can flexibly respond to battles with a variety of opponents.",
+      "ja-JP": "CX-05-01 ヘルズリーパーT 4-70Kに収録。\n相手の体勢を崩しやすいカスタマイズ。モードチェンジにより連撃と受け流しの使い分けが可能。"
+    },
+    "blade_id": "BL-PRD-939627-01"
+  },
+  {
+    "id": "CX-05-02",
+    "en_name": "RHINOREAPERC",
+    "type": "balance",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 30,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-02 戰犀獵魂C",
+      "en-US": "CX-05-02 RHINOREAPERC",
+      "ja-JP": "CX-05-02 ライノリーパーC"
+    },
+    "description": {
+      "zh-TW": "CX-05-02 戰犀獵魂C 4-55D中收錄。\n",
+      "en-US": "Included in CX-05-02 RHINOREAPERC 4-55D.\n",
+      "ja-JP": "CX-05-02 ライノリーパーC 4-55Dに収録。\n"
+    },
+    "blade_id": "BL-PRD-939627-02"
+  },
+  {
+    "id": "CX-05-03",
+    "en_name": "HELLSARCT",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 20,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-03 惡魔至尊T",
+      "en-US": "CX-05-03 HELLSARCT",
+      "ja-JP": "CX-05-03 ヘルズアークT"
+    },
+    "description": {
+      "zh-TW": "CX-05-03 惡魔至尊T 3-85O中收錄。\n",
+      "en-US": "Included in CX-05-03 HELLSARCT 3-85O.\n",
+      "ja-JP": "CX-05-03 ヘルズアークT 3-85Oに収録。\n"
+    },
+    "blade_id": "BL-PRD-939627-03"
+  },
+  {
+    "id": "CX-05-04",
+    "en_name": "LEONCREST",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 70,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-04 雄獅巔峰",
+      "en-US": "CX-05-04 LEONCREST",
+      "ja-JP": "CX-05-04 レオンクレスト"
+    },
+    "description": {
+      "zh-TW": "CX-05-04 雄獅巔峰9-80K中收錄。\n由7枚垂直厚實的攻擊刃組成，擁有極高的防禦能力。",
+      "en-US": "Included in CX-05-04 LEONCREST 9-80K.\nIt consists of 7 vertical thick attack BLADES and has extremely high defensive capabilities.",
+      "ja-JP": "CX-05-04 レオンクレスト9-80Kに収録。\n垂直に切り立った形状の分厚い7枚刃が、どの方向からの攻撃も防ぎきる設計。 "
+    },
+    "blade_id": "BL-PRD-939627-04"
+  },
+  {
+    "id": "CX-05-05",
+    "en_name": "PHOENIXRUDDER",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 35,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-05 鳳凰尾翼",
+      "en-US": "CX-05-05 PHOENIXRUDDER",
+      "ja-JP": "CX-05-05 フェニックスラダー"
+    },
+    "description": {
+      "zh-TW": "CX-05-05 鳳凰尾翼4-70LF中收錄。\n由6枚順向的戰刃所組成，從上方壓制對手並吸收旋轉力。",
+      "en-US": "Included in CX-05-05 PHOENIXRUDDER 4-70LF.\nIt is designed to suppress the opponent from above with its 6 inverted BLADES, reducing their endurance.",
+      "ja-JP": "CX-05-05 フェニックスラダー4-70LFに収録。\n張り出した逆台形型の6枚刃で相手を上から押さえつけて持久力を削る設計。"
+    },
+    "blade_id": "BL-PRD-939627-05"
+  },
+  {
+    "id": "CX-05-06",
+    "en_name": "WHALEWAVE",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX05_list.png",
+    "name": {
+      "zh-TW": "CX-05-06 巨鯨怒濤",
+      "en-US": "CX-05-06 WHALEWAVE",
+      "ja-JP": "CX-05-06 ホエールウェーブ"
+    },
+    "description": {
+      "zh-TW": "CX-05-06 巨鯨怒濤7-60K中收錄。\n大直徑的5枚重擊刃，特化重擊對手使其失去平衡的鋼鐵戰刃。",
+      "en-US": "Included in CX-05-06 WHALEWAVE 7-60K.\nFive heavy-hitting BLADES with a large diameter are specialized steel BLADES that hit the opponent hard and make them lose their balance.",
+      "ja-JP": "CX-05-06 ホエールウェーブ7-60Kに収録。\n大径で遠心力のあるスマッシュ5枚刃で、相手に覆いかぶさるように連打する設計。"
+    },
+    "blade_id": "BL-PRD-939627-06"
+  },
+  {
+    "id": "CX-06-01",
+    "en_name": "FOXBRUSHJ",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 30,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/CX06_list.png",
+    "name": {
+      "zh-TW": "CX-06-01 極狐九尾J",
+      "en-US": "CX-06-01 FOXBRUSHJ",
+      "ja-JP": "CX-06-01 フォックスブラッシュJ"
+    },
+    "description": {
+      "zh-TW": "CX-06-01 極狐九尾J 9-70GR中收錄。\n藉由上下兩排的9枚戰刃，擴大連打的攻擊範圍，同時也能精準給予強力一擊。",
+      "en-US": "Included in FOXBRUSHJ 9-70GR.\nCustomised to extend the range of continuous strikes by arranging the nine BLADES above and below each other, while also aiming for a powerful blow.",
+      "ja-JP": "CX-06-01 フォックスブラッシュJ 9-70GRに収録。\n9枚刃を上下に並べることで連打攻撃の範囲を広げつつ強力な一撃も狙うカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-956969-01"
+  },
+  {
+    "id": "CX-06-02",
+    "en_name": "FOXBRUSHJ",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 30,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/CX06_list.png",
+    "name": {
+      "zh-TW": "CX-06-02 極狐九尾J",
+      "en-US": "CX-06-02 FOXBRUSHJ",
+      "ja-JP": "CX-06-02 フォックスブラッシュJ"
+    },
+    "description": {
+      "zh-TW": "CX-06-02 極狐九尾J 0-80DB中收錄。\n藉由上下兩排的9枚戰刃，擴大連打的攻擊範圍，同時也能精準給予強力一擊。",
+      "en-US": "Included in FOXBRUSHJ 0-80DB.\nCustomised to extend the range of continuous strikes by arranging the nine BLADES above and below each other, while also aiming for a powerful blow.",
+      "ja-JP": "CX-06-02 フォックスブラッシュJ 0-80DBに収録。\n9枚刃を上下に並べることで連打攻撃の範囲を広げつつ強力な一撃も狙うカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-956969-02"
+  },
+  {
+    "id": "CX-06-03",
+    "en_name": "FOXBRUSHJ",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 30,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/CX06_list.png",
+    "name": {
+      "zh-TW": "CX-06-03 極狐九尾J",
+      "en-US": "CX-06-03 FOXBRUSHJ",
+      "ja-JP": "CX-06-03フォックスブラッシュJ"
+    },
+    "description": {
+      "zh-TW": "CX-06-03 極狐九尾J 2-60U中收錄。\n藉由上下兩排的9枚戰刃，擴大連打的攻擊範圍，同時也能精準給予強力一擊。",
+      "en-US": "Included in FOXBRUSHJ 2-60U.\nCustomised to extend the range of continuous strikes by arranging the nine BLADES above and below each other, while also aiming for a powerful blow.",
+      "ja-JP": "CX-06-03 フォックスブラッシュJ 2-60Uに収録。\n9枚刃を上下に並べることで連打攻撃の範囲を広げつつ強力な一撃も狙うカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-956969-03"
+  },
+  {
+    "id": "CX-08-01",
+    "en_name": "CERBERUSFLAMEW",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 30,
+      "stamina": 60
+    },
+    "rotation": "right",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-01 魔犬烈焰W",
+      "en-US": "CX-08-01 CERBERUSFLAMEW",
+      "ja-JP": "CX-08-01 ケルベロスフレイムW"
+    },
+    "description": {
+      "zh-TW": "CX-08-01 魔犬烈焰W 5-80WB中收錄。\n雙層圓形零件設計，打造近乎完美圓形鋼鐵戰刃，全面提升防禦與化解攻擊能力。",
+      "en-US": "Included in CX-08-01 CERBERUSFLAMEW 5-80WB.\nDesigned with two layers of circular-shaped parts to customize a BLADE that is closer to a true circular shape and improve receiving performance.",
+      "ja-JP": "CX-08-01 ケルベロスフレイムW 5-80WBに収録。\n円形状のパーツを2層重ねることで、より真円形状に近いブレードにカスタマイズし、受け流し性能を向上させた設計。"
+    },
+    "blade_id": "BL-PRD-956983-01"
+  },
+  {
+    "id": "CX-08-02",
+    "en_name": "WHALEFLAMEM",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 30,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-02 巨鯨烈焰M",
+      "en-US": "CX-08-02 WHALEFLAMEM",
+      "ja-JP": "CX-08-02 ホエールフレイムM"
+    },
+    "description": {
+      "zh-TW": "CX-08-02 巨鯨烈焰M 3-85HT中收錄。\n",
+      "en-US": "Included in CX-08-02 WHALEFLAMEM 3-85HT.\n",
+      "ja-JP": "CX-08-02 ホエールフレイムM 3-85HTに収録。\n"
+    },
+    "blade_id": "BL-PRD-956983-02"
+  },
+  {
+    "id": "CX-08-03",
+    "en_name": "CERBERUSDARKW",
+    "type": "defense",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 55,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-03 魔犬幽冥W",
+      "en-US": "CX-08-03 CERBERUSDARKW",
+      "ja-JP": "CX-08-03 ケルベロスダークW"
+    },
+    "description": {
+      "zh-TW": "CX-08-03 魔犬幽冥W 1-60F中收錄。\n",
+      "en-US": "Included in CX-08-03 CERBERUSDARKW 1-60F.\n",
+      "ja-JP": "CX-08-03 ケルベロスダークW 1-60Fに収録。\n"
+    },
+    "blade_id": "BL-PRD-956983-03"
+  },
+  {
+    "id": "CX-08-04",
+    "en_name": "DRANBUSTER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 70,
+      "defense": 20,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-04 蒼龍爆刃",
+      "en-US": "CX-08-04 DRANBUSTER",
+      "ja-JP": "CX-08-04 ドランバスター"
+    },
+    "description": {
+      "zh-TW": "CX-08-04 蒼龍爆刃5-80MN中收錄。\n擁有特別突出的攻擊點，有將對手一擊彈飛的優秀設計。",
+      "en-US": "Included in CX-08-04 DRANBUSTER 5-80MN.\nDesigned specifically to repelling opponents in a single blow with its large, protruding attack BLADE.",
+      "ja-JP": "CX-08-04 ドランバスター5-80MNに収録。\n突き出した大型攻撃刃で、相手を一撃で弾き飛ばすことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-956983-04"
+  },
+  {
+    "id": "CX-08-05",
+    "en_name": "BLACKSHELL",
+    "type": "defense",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 65,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-05 玄冥戰甲",
+      "en-US": "CX-08-05 BLACKSHELL",
+      "ja-JP": "CX-08-05 ブラックシェル"
+    },
+    "description": {
+      "zh-TW": "CX-08-05 玄冥戰甲7-70WB中收錄。\n鋼鐵戰刃8枚向下傾斜的攻擊刃，具有防止低位攻擊的設計。",
+      "en-US": "Included in CX-08-05 BLACKSHELL 7-70WB.\nThe 8 downward-sloping attack BLADES are designed to defend against attacks from low position.",
+      "ja-JP": "CX-08-05 ブラックシェル7-70WBに収録。\n外周にかけて下向きの傾斜がついた8枚の防御刃により、低い位置からの攻撃を防ぐ構造。"
+    },
+    "blade_id": "BL-PRD-956983-05"
+  },
+  {
+    "id": "CX-08-06",
+    "en_name": "COBALTDRAGOON",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 15,
+      "stamina": 25
+    },
+    "rotation": "left",
+    "image": "/images/products/CX08_list.png",
+    "name": {
+      "zh-TW": "CX-08-06 蒼穹龍騎士",
+      "en-US": "CX-08-06 COBALTDRAGOON",
+      "ja-JP": "CX-08-06 コバルトドラグーン"
+    },
+    "description": {
+      "zh-TW": "CX-08-06 蒼穹龍騎士4-55WB中收錄。\n左迴旋設計的鋼鐵戰刃，由4枚攻擊刃的設計創造出優異的攻擊性能。",
+      "en-US": "Included in CX-08-06 COBALTDRAGOON 4-55WB.\nA left spinning BEY equipped with 4 attack BLADES with high repelling performance.",
+      "ja-JP": "CX-08-06 コバルトドラグーン4-55WBに収録。\n先端が分厚い4枚のアッパー刃による高い弾き性能を持った左回転ブレード。"
+    },
+    "blade_id": "BL-PRD-956983-06"
+  },
+  {
+    "id": "CX-09",
+    "en_name": "SOLECLIPSED",
+    "type": "balance",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 47,
+      "defense": 33,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX09_list.png",
+    "name": {
+      "zh-TW": "CX-09 焰神滅世D",
+      "en-US": "CX-09 SOLECLIPSED",
+      "ja-JP": "CX-09 ソルエクリプスD"
+    },
+    "description": {
+      "zh-TW": "{\"0,0\": \"CX-09 焰神滅世D 5-70TK中收錄。\n主要戰刃與輔助戰刃皆設計為上勾攻擊模式，組合後能更容易擊飛對手。\",\"0,1\": \"CX-09 焰神滅世D 5-70TK中收錄。\n將主要戰刃設定為「上勾模式」時，輔助戰刃則使用「猛擊模式」，能夠擊飛對手，同時也能進行猛烈打擊的改裝。\",\"1,0\": \"CX-09 焰神滅世D 5-70TK中收錄。\n將主要戰刃設定為「猛擊模式」時，輔助刃則切換為「上勾模式」，能在猛烈打擊對手的同時，增強擊飛效果的改裝。\",\"1,1\": \"CX-09 焰神滅世D 5-70TK中收錄。\n主要戰刃與輔助戰刃皆設為猛擊模式，組合後能將對手一擊必殺。\"}",
+      "en-US": "{\"0,0\": \"Included in CX-09 SOLECLIPSED 5-70TK.\nThe combination of a MAIN BLADE and an ASSIST BLADE, both in upper mode, makes it excellent for attacks that bounce off opponents.\",\"0,1\": \"Included in CX-09 SOLECLIPSED 5-70TK.\nThe ASSIST BLADE, set to smash mode against the MAIN BLADE in upper mode, allows you to both repel and slam opponents.\",\"1,0\": \"Included in CX-09 SOLECLIPSED 5-70TK.\nA customisation where the ASSIST BLADE is set to upper mode against the MAIN BLADE in smash mode, both striking the opponent downwards and enhancing the knockback effect.\",\"1,1\": \"Included in CX-09 SOLECLIPSED 5-70TK.\nThe combination of a MAIN BLADE and an ASSIST BLADE, both in smash mode, makes it excellent for striking opponents.\"}",
+      "ja-JP": "{\"0,0\": \"CX-09 ソルエクリプスD 5-70TKに収録。\n両方アッパーモードにしたメインブレードとアシストブレードの組み合わせにより相手を弾き飛ばす攻撃に優れる。\",\"0,1\": \"CX-09 ソルエクリプスD 5-70TKに収録。\nアッパーモードのメインブレードに対しアシストブレードはスマッシュモードにして相手を弾きつつ叩きつけもできるカスタム。\",\"1,0\": \"CX-09 ソルエクリプスD 5-70TKに収録。\nスマッシュモードのメインブレードに対しアシストブレードはアッパーモードにして相手を叩きつけつつ弾きも強めたカスタム。\",\"1,1\": \"CX-09 ソルエクリプスD 5-70TKに収録。\n両方スマッシュモードにしたメインブレードとアシストブレードの組み合わせにより相手を叩きつける攻撃に優れる。\"}"
+    },
+    "blade_id": "BL-PRD-995678-00"
+  },
+  {
+    "id": "CX-10",
+    "en_name": "WOLFHUNTF",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 30,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/CX10_list.png",
+    "name": {
+      "zh-TW": "CX-10 銀狼狩獵F",
+      "en-US": "CX-10 WOLFHUNTF",
+      "ja-JP": "CX-10 ウルフハントF"
+    },
+    "description": {
+      "zh-TW": "CX-10 銀狼狩獵F 0-60DB中收錄。\n採用自轉環一邊化解對手攻擊，一邊以具強大離心力的連打戰刃持續打擊，使對手姿態崩壞的設計。",
+      "en-US": "Included in CX-10 WOLFHUNTF 0-60DB.\nA design enabling movements that parry an opponent's attacks while using BLADES with superior centrifugal force to disrupt their posture.",
+      "ja-JP": "CX-10 ウルフハントF 0-60DBに収録。\nフリーリングで相手の攻撃を受け流しつつ、遠心力に優れた連打刃で相手の体勢を崩す動きを可能にした設計。"
+    },
+    "blade_id": "BL-PRD-097242-00"
+  },
+  {
+    "id": "CX-11-03",
+    "en_name": "SHARKGILL",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 20,
+      "defense": 25,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/CX11_list.png",
+    "name": {
+      "zh-TW": "CX-11-03 鮫鯊撕裂",
+      "en-US": "CX-11-03 SHARKGILL",
+      "ja-JP": "CX-11-03 シャークギル"
+    },
+    "description": {
+      "zh-TW": "CX-11-03 鮫鯊撕裂5-60FB中收錄。\n流線的圓形兩枚戰刃設計，在化解對手攻擊的同時提升持久力。",
+      "en-US": "Included in CX-11-03 SHARKGILL 5-60FB.\nThe smooth circular double-bladed design deflects an opponent's attack while enhancing STAMINA.",
+      "ja-JP": "CX-11-03 シャークギル5-60FBに収録。\n滑らかな円形の2枚刃が相手の攻撃を受け流しつつ持久力を高める設計。"
+    },
+    "blade_id": "BL-PRD-098775-03"
+  },
+  {
+    "id": "CX-13",
+    "en_name": "BAHAMUTBLITZBK",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 20,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/CX13_list.png",
+    "name": {
+      "zh-TW": "CX-13 龍王閃擊BK",
+      "en-US": "CX-13 BAHAMUTBLITZBK",
+      "ja-JP": "CX-13 バハムートブリッツBK"
+    },
+    "description": {
+      "zh-TW": "CX-13 龍王閃擊BK 1-50I中收錄。\n透過將複數重擊點重疊於同一位置，提升單次攻擊的重量感，並強化擊飛性能的自由改造。",
+      "en-US": "Included in CX-13 BAHAMUTBLITZBK 1-50I.\nA customisation that enhances the impact of a single strike by stacking multiple heavy attack points at the same location, thereby improving deflection performance.",
+      "ja-JP": "CX-13 バハムートブリッツBK 1-50Iに収録。\n複数の重撃ポイントを同じ位置で重ねることで一撃の重さを底上げし、弾き性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-097259-00"
+  },
+  {
+    "id": "CX-14",
+    "en_name": "KNIGHTFORTRESSGV",
+    "type": "defense",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 55,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/CX14_list.png",
+    "name": {
+      "zh-TW": "CX-14 騎士堡壘GV",
+      "en-US": "CX-14 KNIGHTFORTRESSGV",
+      "ja-JP": "CX-14 ナイトフォートレスGV"
+    },
+    "description": {
+      "zh-TW": "CX-14騎士堡壘GV 8-70UN中收錄。\n上下方向外擴張的戰刃重疊設計，可彈開對手的上挑與強烈攻擊，實現高反擊性能。這種自由改造提升了全方位防禦性能。",
+      "en-US": "Included in CX-14 KNIGHTFORTRESSGV 8-70UN.\nOverlapping BLADES with protruding upper and lower sections achieve counter capabilities that deflect opponents' uppercuts and smash attacks. A customisation enhancing all-round defensive performance.",
+      "ja-JP": "CX-14 ナイトフォートレスGV 8-70UNに収録。\n上下方向に張り出した形状の刃を重ね、相手からのアッパーやスマッシュ攻撃を弾き返すカウンター性能を実現。全方位の防御性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-097266-00"
+  },
+  {
+    "id": "CX-15",
+    "en_name": "RAGNARAGEFE",
+    "type": "stamina",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 20,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/CX15_list.png",
+    "name": {
+      "zh-TW": "CX-15 邪神狂怒FE",
+      "en-US": "CX-15 RAGNARAGEFE",
+      "ja-JP": "CX-15 ラグナレイジFE"
+    },
+    "description": {
+      "zh-TW": "CX-15 邪神狂怒FE 4-55Y中收錄。\n將流線型的兩枚戰刃重疊成三層，大幅降低空氣阻力。抑制耐力消耗並提升持久性能，增加持續連打攻擊的可能。",
+      "en-US": "Included in CX-15 RAGNARAGEFE 4-55Y.\nThree layers of streamlined double BLADES significantly reduce air resistance. This minimises stamina depletion, enhances endurance performance, and enables sustained rapid-fire attacks.",
+      "ja-JP": "CX-15 ラグナレイジFE 4-55Yに収録。\n流線形の2枚刃を3層重ね、空気抵抗を大きく軽減。スタミナ消耗を抑えて持久性能を底上げし、持続的な連打攻撃を可能にする"
+    },
+    "blade_id": "BL-PRD-097273-00"
+  },
+  {
+    "id": "CX-16",
+    "en_name": "BAHAMUTBLITZBK",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 20,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/CX16_list.png",
+    "name": {
+      "zh-TW": "CX-16 龍王閃擊BK 異色版",
+      "en-US": "CX-16 BAHAMUTBLITZBK Special Ver.",
+      "ja-JP": "CX-16 バハムートブリッツBK スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "CX-16 龍王閃擊BK 1-50I 異色版中收錄。\n透過將複數重擊點重疊於同一位置，提升單次攻擊的重量感，並強化擊飛性能的自由改造。",
+      "en-US": "Included in CX-16 BAHAMUTBLITZBK 1-50I Special Ver.\nA customisation that enhances the impact of a single strike by stacking multiple heavy attack points at the same location, thereby improving deflection performance.",
+      "ja-JP": "CX-16 バハムートブリッツBK 1-50I スペシャルVer.に収録。\n複数の重撃ポイントを同じ位置で重ねることで一撃の重さを底上げし、弾き性能を高めたカスタマイズ。"
+    },
+    "blade_id": "BL-PRD-097280-00"
+  },
+  {
+    "id": "CX-17-01",
+    "en_name": "UNICORNDELTAPO",
+    "type": "balance",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 32,
+      "stamina": 28
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-01 獨角極變PO",
+      "en-US": "CX-17-01 UNICORNDELTAPO",
+      "ja-JP": "CX-17-01 ユニコーンデルタPO"
+    },
+    "description": {
+      "zh-TW": "CX-17-01 獨角極變PO 3-60GU中收錄。\n利用左右性能不同的戰刃，同時兼顧攻擊與防禦。透過調整重心，可以靈活切換 偏攻擊、偏防禦、或中間的三種風格。",
+      "en-US": "Included in CX-17-01 UNICORNDELTAPO 3-60GU.\nWith BLADES that differ in performance on the left and right, it handles both attack and defence. By adjusting the centre of gravity, it is possible to switch between three styles: attack-oriented, defence-oriented, and a balanced approach.",
+      "ja-JP": "CX-17-01 ユニコーンデルタPO 3-60GUに収録。\n左右で性能の違う刃で攻撃も防御もこなす。重心を調整することで攻撃寄り・防御寄り・中間の3つのスタイルを使い分けることが可能。"
+    },
+    "blade_id": "BL-PRD-096146-01"
+  },
+  {
+    "id": "CX-17-02",
+    "en_name": "UNICORNDELTAPO",
+    "type": "balance",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 32,
+      "stamina": 28
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-02 獨角極變PO",
+      "en-US": "CX-17-02 UNICORNDELTAPO",
+      "ja-JP": "CX-17-02 ユニコーンデルタPO"
+    },
+    "description": {
+      "zh-TW": "CX-17-02 獨角極變PO 1-80GR中收錄。\n利用左右性能不同的戰刃，同時兼顧攻擊與防禦。透過調整重心，可以靈活切換 偏攻擊、偏防禦、或中間的三種風格。",
+      "en-US": "Included in CX-17-02 UNICORNDELTAPO 1-80GR.\nWith BLADES that differ in performance on the left and right, it handles both attack and defence. By adjusting the centre of gravity, it is possible to switch between three styles: attack-oriented, defence-oriented, and a balanced approach.",
+      "ja-JP": "CX-17-02 ユニコーンデルタPO 1-80GRに収録。\n左右で性能の違う刃で攻撃も防御もこなす。重心を調整することで攻撃寄り・防御寄り・中間の3つのスタイルを使い分けることが可能。"
+    },
+    "blade_id": "BL-PRD-096146-02"
+  },
+  {
+    "id": "CX-17-03",
+    "en_name": "WARRIORSABER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 20,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-03 武士星劍",
+      "en-US": "CX-17-03 WARRIORSABER",
+      "ja-JP": "CX-17-03 サムライセイバー"
+    },
+    "description": {
+      "zh-TW": "CX-17-03 武士星劍9-65LO中收錄。\n具有活動的攻擊刃構造，其攻擊力會依照攻擊對手的方式而有所改變。",
+      "en-US": "Included in CX-17-03 WARRIORSABER 9-65LO.\nA gimmick in which a small metal BLADE opens and closes, allowing its attack power to change depending on the attack pattern.",
+      "ja-JP": "CX-17-03 サムライセイバー9-65LOに収録。\n小型のメタル刃が開閉するギミックにより、相手との当たり方に合わせて攻撃力が変化する構造。"
+    },
+    "blade_id": "BL-PRD-096146-03"
+  },
+  {
+    "id": "CX-17-04",
+    "en_name": "HELLSHAMMER",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-04 惡魔重錘",
+      "en-US": "CX-17-04 HELLSHAMMER",
+      "ja-JP": "CX-17-04 ヘルズハンマー"
+    },
+    "description": {
+      "zh-TW": "CX-17-04 惡魔重錘3-85GU中收錄。\n厚重的鋼鐵戰刃，能從較高的打擊點破壞對手的平衡。",
+      "en-US": "Included in CX-17-04 HELLSHAMMER 3-85GU.\nThe thick smash BLADE is designed specifically to smash opponents into the stadium.",
+      "ja-JP": "CX-17-04 ヘルズハンマー3-85GUに収録。\n厚みのあるスマッシュ刃で、相手をスタジアムに叩きつけることに特化した設計。"
+    },
+    "blade_id": "BL-PRD-096146-04"
+  },
+  {
+    "id": "CX-17-05",
+    "en_name": "TYRANNOBEAT",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 30,
+      "stamina": 5
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-05 暴龍霸擊",
+      "en-US": "CX-17-05 TYRANNOBEAT",
+      "ja-JP": "CX-17-05 ティラノビート"
+    },
+    "description": {
+      "zh-TW": "CX-17-05 暴龍霸擊3-60N中收錄。\n8枚刃且鋸齒狀的造型，擅長發揮不規則的打擊。",
+      "en-US": "Included in CX-17-05 TYRANNOBEAT 3-60N.\nIt has eight thick BLADES that protrude in a jagged manner in the vertical direction, making it excellent for delivering irregular blows.",
+      "ja-JP": "CX-17-05 ティラノビート3-60Nに収録。\n上下方向にギザギザと突出した分厚い8枚刃で、不規則な打撃を与えることに優れる。"
+    },
+    "blade_id": "BL-PRD-096146-05"
+  },
+  {
+    "id": "CX-17-06",
+    "en_name": "CRIMSONGARUDA",
+    "type": "balance",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 25,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/CX17_list.png",
+    "name": {
+      "zh-TW": "CX-17-06 赫燃天鳳",
+      "en-US": "CX-17-06 CRIMSONGARUDA",
+      "ja-JP": "CX-17-06 クリムゾンガルーダ"
+    },
+    "description": {
+      "zh-TW": "CX-17-06 赫燃天鳳7-80GU中收錄。\n鋼鐵戰刃在不同的高度中能發揮不同的性能。低高度強化打擊能力，高高度強化反擊能力。",
+      "en-US": "Included in CX-17-06 CRIMSONGARUDA 7-80GU.\nThe upper and lower parts of the BLADE have different performance, with the upper part being better for attacks with less stamina loss, and the lower part being better for counters.",
+      "ja-JP": "CX-17-06 クリムゾンガルーダ7-80GUに収録。\nブレード上下で異なる性能を持ち、上面はスタミナロスが少ない攻撃、底面はカウンターに優れる。"
+    },
+    "blade_id": "BL-PRD-096146-06"
+  },
+  {
+    "id": "UX-01",
+    "en_name": "DRANBUSTER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 70,
+      "defense": 20,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/UX01_list.png",
+    "name": {
+      "zh-TW": "UX-01 蒼龍爆刃",
+      "en-US": "UX-01 DRANBUSTER",
+      "ja-JP": "UX-01 ドランバスター"
+    },
+    "description": {
+      "zh-TW": "UX-01 蒼龍爆刃1-60A中收錄。\n擁有特別突出的攻擊點，有將對手一擊彈飛的優秀設計。",
+      "en-US": "Included in UX-01 DRANBUSTER 1-60A.\nDesigned specifically to repelling opponents in a single blow with its large, protruding attack BLADE.",
+      "ja-JP": "UX-01 ドランバスター1-60Aに収録。\n突き出した大型攻撃刃で、相手を一撃で弾き飛ばすことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914471-00"
+  },
+  {
+    "id": "UX-02",
+    "en_name": "HELLSHUMMER",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/UX02_list.png",
+    "name": {
+      "zh-TW": "UX-02 惡魔重錘",
+      "en-US": "UX-02 HELLSHUMMNER",
+      "ja-JP": "UX-02 ヘルズハンマー"
+    },
+    "description": {
+      "zh-TW": "UX-02 惡魔重錘3-70H中收錄。\n厚重的鋼鐵戰刃，能從較高的打擊點破壞對手的平衡。",
+      "en-US": "Included in UX-02 HELLSHAMMER 3-70H.\nThe thick smash BLADE is designed specifically to smash opponents into the stadium.",
+      "ja-JP": "UX-02 ヘルズハンマー3-70Hに収録。\n厚みのあるスマッシュ刃で、相手をスタジアムに叩きつけることに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914488-00"
+  },
+  {
+    "id": "UX-03",
+    "en_name": "WIZARDROD",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 25,
+      "stamina": 60
+    },
+    "rotation": "right",
+    "image": "/images/products/UX03_list.png",
+    "name": {
+      "zh-TW": "UX-03 魔導神杖",
+      "en-US": "UX-03 WIZARDROD",
+      "ja-JP": "UX-03 ウィザードロッド"
+    },
+    "description": {
+      "zh-TW": "UX-03 魔導神杖5-70DB中收錄。\n優秀的外重心及直徑較大的鋼鐵戰刃，能夠產生超群的旋轉離心力。",
+      "en-US": "Included in UX-03 WIZARDROD 5-70DB.\nThe 5-BLADE shape with an external center of gravity and large diameter is specially designed to generate centrifugal force.",
+      "ja-JP": "UX-03 ウィザードロッド5-70DBに収録。\n外重心かつ径の大きい5枚刃形状で、遠心力を生み出すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914495-00"
+  },
+  {
+    "id": "UX-04-01",
+    "en_name": "DRANBUSTER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 70,
+      "defense": 20,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/UX04_list.png",
+    "name": {
+      "zh-TW": "UX-04-01 蒼龍爆刃 特別版",
+      "en-US": "UX-04-01 WDRANBUSTER Special Ver.",
+      "ja-JP": "UX-04-01 ドランバスター スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "UX-04-01 蒼龍爆刃1-60A 特別Ver.中收錄。\n擁有特別突出的攻擊點，有將對手一擊彈飛的優秀設計。",
+      "en-US": "Included in UX-04-01 DRANBUSTER 1-60A Special Ver.\nDesigned specifically to repelling opponents in a single blow with its large, protruding attack BLADE.",
+      "ja-JP": "UX-04-01 ドランバスター1-60A スペシャルVer.に収録。\n突き出した大型攻撃刃で、相手を一撃で弾き飛ばすことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914501-01"
+  },
+  {
+    "id": "UX-04-02",
+    "en_name": "WIZARDROD",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 25,
+      "stamina": 60
+    },
+    "rotation": "right",
+    "image": "/images/products/UX04_list.png",
+    "name": {
+      "zh-TW": "UX-04-02 魔導神杖 特別版",
+      "en-US": "UX-04-02 WIZARDROD Special Ver.",
+      "ja-JP": "UX-04-02 ウィザードロッド スペシャルVer."
+    },
+    "description": {
+      "zh-TW": "UX-04-02 魔導神杖5-70DB 特別Ver.中收錄。\n優秀的外重心及直徑較大的鋼鐵戰刃，能夠產生超群的旋轉離心力。",
+      "en-US": "Included in UX-04-02 WIZARDROD 5-70DB Special Ver.\nThe 5-BLADE shape with an external center of gravity and large diameter is specially designed to generate centrifugal force.",
+      "ja-JP": "UX-04-02 ウィザードロッド5-70DB スペシャルVer.に収録。\n外重心かつ径の大きい5枚刃形状で、遠心力を生み出すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914501-02"
+  },
+  {
+    "id": "UX-05-01",
+    "en_name": "SHINOBISHADOW",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 70,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX05_list.png",
+    "name": {
+      "zh-TW": "UX-05-01 忍者闇影",
+      "en-US": "UX-05-01 SHINOBISHADOW",
+      "ja-JP": "UX-05-01 シノビシャドウ"
+    },
+    "description": {
+      "zh-TW": "UX-05-01 忍者闇影1-80MN中收錄。\n平滑的3枚刃設計，有效的化解對手的攻擊。",
+      "en-US": "Included in UX-05-01 SHINOBISHADOW 1-80MN.\nWith a smooth 3-BLADE shape, it is specially designed to deflecting the opponent's attacks.",
+      "ja-JP": "UX-05-01 シノビシャドウ1-80MNに収録。\n滑らかな3枚刃形状で、相手の攻撃を受け流すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914549-01"
+  },
+  {
+    "id": "UX-05-02",
+    "en_name": "SHINOBISHADOW",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 70,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX05_list.png",
+    "name": {
+      "zh-TW": "UX-05-02 忍者闇影",
+      "en-US": "UX-05-02 SHINOBISHADOW",
+      "ja-JP": "UX-05-02 シノビシャドウ"
+    },
+    "description": {
+      "zh-TW": "UX-05-02 忍者闇影9-60LF中收錄。\n平滑的3枚刃設計，有效的化解對手的攻擊。",
+      "en-US": "Included in UX-05-02 SHINOBISHADOW 9-60LF.\nWith a smooth 3-BLADE shape, it is specially designed to deflecting the opponent's attacks.",
+      "ja-JP": "UX-05-02 シノビシャドウ9-60LFに収録。\n滑らかな3枚刃形状で、相手の攻撃を受け流すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914549-02"
+  },
+  {
+    "id": "UX-05-03",
+    "en_name": "SHINOBISHADOW",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 70,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX05_list.png",
+    "name": {
+      "zh-TW": "UX-05-03 忍者闇影",
+      "en-US": "UX-05-03 SHINOBISHADOW",
+      "ja-JP": "UX-05-03 シノビシャドウ"
+    },
+    "description": {
+      "zh-TW": "UX-05-03 忍者闇影3-70GP中收錄。\n平滑的3枚刃設計，有效的化解對手的攻擊。",
+      "en-US": "Included in UX-05-03 SHINOBISHADOW 3-70GP.\nWith a smooth 3-BLADE shape, it is specially designed to deflecting the opponent's attacks.",
+      "ja-JP": "UX-05-03 シノビシャドウ3-70GPに収録。\n滑らかな3枚刃形状で、相手の攻撃を受け流すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-914549-03"
+  },
+  {
+    "id": "UX-06",
+    "en_name": "LEONCREST",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 70,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/UX06_list.png",
+    "name": {
+      "zh-TW": "UX-06 雄獅巔峰",
+      "en-US": "UX-06 LEONCREST",
+      "ja-JP": "UX-06 レオンクレスト"
+    },
+    "description": {
+      "zh-TW": "UX-06 雄獅巔峰7-60GN中收錄。\n由7枚垂直厚實的攻擊刃組成，擁有極高的防禦能力。",
+      "en-US": "Included in UX-06 LEONCREST 7-60GN.\nIt consists of 7 vertical thick attack BLADES and has extremely high defensive capabilities.",
+      "ja-JP": "UX-06 レオンクレスト7-60GNに収録。\n垂直に切り立った形状の分厚い7枚刃が、どの方向からの攻撃も防ぎきる設計。 "
+    },
+    "blade_id": "BL-PRD-914600-00"
+  },
+  {
+    "id": "UX-07-02",
+    "en_name": "WYVERNGALE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 40,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/UX07_list.png",
+    "name": {
+      "zh-TW": "UX-07-02 飛龍旋翼",
+      "en-US": "UX-07-02 WYVERNGALE",
+      "ja-JP": "UX-07-02 ワイバーンゲイル"
+    },
+    "description": {
+      "zh-TW": "UX-07-02 飛龍旋翼2-60S中收錄。\n流線型的4片戰刃會減少空氣阻力，擅長持續旋轉。",
+      "en-US": "Included in UX-07-02 WYVERNGALE 2-60S.\nFour streamlined BLADES which reduce air resistance, allowing for sustained spinning.",
+      "ja-JP": "UX-07-02 ワイバーンゲイル2-60Sに収録。\n流線形状の4枚刃が空気抵抗を低減し、回り続けることに優れる。"
+    },
+    "blade_id": "BL-PRD-914594-02"
+  },
+  {
+    "id": "UX-07-03",
+    "en_name": "SPHINXCOWL",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 35,
+      "defense": 55,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/UX07_list.png",
+    "name": {
+      "zh-TW": "UX-07-03 魔獸護甲",
+      "en-US": "UX-07-03 SPHINXCOWL",
+      "ja-JP": "UX-07-03 スフィンクスカウル"
+    },
+    "description": {
+      "zh-TW": "UX-07-03 魔獸護甲1-80GF中收錄。\n較圓形的鋼鐵戰刃，有著9枚刃的平均配置，能夠化解全方位的攻擊並加以反擊。",
+      "en-US": "Included in UX-07-03 SPHINXCOWL 1-80GF.\nThe 9 striking BLADES are arranged in a circular structure/pattern which disperses and repels attacks from various directions.",
+      "ja-JP": "UX-07-03 スフィンクスカウル1-80GFに収録。\n円形に配置された連打9枚刃により、様々な方向からの攻撃を分散し弾き返す構造。"
+    },
+    "blade_id": "BL-PRD-914594-03"
+  },
+  {
+    "id": "UX-08",
+    "en_name": "SILVERWOLF",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 15,
+      "defense": 30,
+      "stamina": 65
+    },
+    "rotation": "right",
+    "image": "/images/products/UX08_list.png",
+    "name": {
+      "zh-TW": "UX-08 霜輝銀狼",
+      "en-US": "UX-08 SILVERWOLF",
+      "ja-JP": "UX-08 シルバーウルフ"
+    },
+    "description": {
+      "zh-TW": "UX-08 霜輝銀狼3-80FB中收錄。\n鋼鐵戰刃下方有著自由旋轉的機關，可以格檔對手攻擊並保持旋轉力。",
+      "en-US": "Included in UX-08 SILVERWOLF 3-80FB.\nThe free rotating ring at the bottom of the BLADE rotates, allowing it to deflect attacks and maintain rotational force.",
+      "ja-JP": "UX-08 シルバーウルフ3-80FBに収録。\nブレード下部のフリーリングが回転するギミックにより、相手の攻撃を受け流し回転力を維持する構造。"
+    },
+    "blade_id": "BL-PRD-939498-00"
+  },
+  {
+    "id": "UX-09",
+    "en_name": "WARRIORSABER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 65,
+      "defense": 20,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/UX09_list.png",
+    "name": {
+      "zh-TW": "UX-09 武士星劍",
+      "en-US": "UX-09 WARRIORSABER",
+      "ja-JP": "UX-09 サムライセイバー"
+    },
+    "description": {
+      "zh-TW": "UX-09 武士星劍2-70L中收錄。\n具有活動的攻擊刃構造，其攻擊力會依照攻擊對手的方式而有所改變。",
+      "en-US": "Included in UX-09 WARRIORSABER 2-70L.\nA gimmick in which a small metal BLADE opens and closes, allowing its attack power to change depending on the attack pattern.",
+      "ja-JP": "UX-09 サムライセイバー2-70Lに収録。\n小型のメタル刃が開閉するギミックにより、相手との当たり方に合わせて攻撃力が変化する構造。"
+    },
+    "blade_id": "BL-PRD-939535-00"
+  },
+  {
+    "id": "UX-10-01",
+    "en_name": "KNIGHTMAIL",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 65,
+      "stamina": 35
+    },
+    "rotation": "right",
+    "image": "/images/products/UX10_list.png",
+    "name": {
+      "zh-TW": "UX-10-01 騎士圓甲",
+      "en-US": "UX-10-01 KNIGHTMAIL",
+      "ja-JP": "UX-10-01 ナイトメイル"
+    },
+    "description": {
+      "zh-TW": "UX-10-01 騎士圓甲3-85BS中收錄。\n圓形的12枚刃設計，內藏的3顆金屬球能減少來自衝擊的震動。",
+      "en-US": "Included in UX-10-01 KNIGHTMAIL 3-85BS.\nThree metal balls built into the circular 12-BLADE move vertically to soften impact.",
+      "ja-JP": "UX-10-01 ナイトメイル3-85BSに収録。\n円形の12枚刃に内蔵された3つのメタルボールが上下方向に動き、衝撃を和らげる構造。"
+    },
+    "blade_id": "BL-PRD-939542-01"
+  },
+  {
+    "id": "UX-10-03",
+    "en_name": "PTERASWING",
+    "type": "stamina",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 27,
+      "defense": 23,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/UX10_list.png",
+    "name": {
+      "zh-TW": "UX-10-03 翼龍神翼",
+      "en-US": "UX-10-03 PTERASWING",
+      "ja-JP": "UX-10-03 プテラスイング"
+    },
+    "description": {
+      "zh-TW": "UX-10-03 翼龍神翼7-70B中收錄。\n向下延伸的鋼鐵戰刃，適合消耗對手的旋轉力。",
+      "en-US": "Included in UX-10-03 PTERASWING 7-70B.\nWith six downward facing jagged BLADES, it is excellent at draining the opponent's rotational power.",
+      "ja-JP": "UX-10-03 プテラスイング7-70Bに収録。\n下方向にギザギザした6枚の刃で、相手の回転力を消耗させることに優れる。"
+    },
+    "blade_id": "BL-PRD-939542-03"
+  },
+  {
+    "id": "UX-11",
+    "en_name": "IMPACTDRAKE",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 75,
+      "defense": 25,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/UX11_list.png",
+    "name": {
+      "zh-TW": "UX-11 衝擊龍神",
+      "en-US": "UX-11 IMPACTDRAKE",
+      "ja-JP": "UX-11 インパクトドレイク"
+    },
+    "description": {
+      "zh-TW": "UX-11 衝擊龍神9-60LR中收錄。\n考量結合橡膠材質全新設計的4枚刃鋼鐵戰刃，強化了擊飛能力。",
+      "en-US": "Included in UX-11 IMPACTDRAKE 9-60LR.\nSpecially designed rubber BLADES to knock opponents away using the friction and rebound power.",
+      "ja-JP": "UX-11 インパクトドレイク9-60LRに収録。\n分厚い4枚刃に備えられたラバーの摩擦力と反発力により、相手を弾き飛ばすことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-939559-00"
+  },
+  {
+    "id": "UX-12-01",
+    "en_name": "GHOSTCIRCLE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 5,
+      "defense": 40,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-01 幽靈元魂",
+      "en-US": "UX-12-01 GHOSTCIRCLE",
+      "ja-JP": "UX-12-01 ゴーストサークル"
+    },
+    "description": {
+      "zh-TW": "UX-12-01 幽靈元魂0-80GB中收錄。\n小直徑解沒有任何明顯攻擊刃的設計，遭受攻擊時的能夠減少迴轉力喪失。",
+      "en-US": "Included in UX-12-01 GHOSTCIRCLE 0-80GB.\nThe small diameter zero BLADE is designed to reduce stamina loss when attacked by an opponent.",
+      "ja-JP": "UX-12-01 ゴーストサークル0-80GBに収録。\n小径の0枚刃により、相手から攻撃を受けたときのスタミナロスを軽減する設計。"
+    },
+    "blade_id": "BL-PRD-939566-01"
+  },
+  {
+    "id": "UX-12-02",
+    "en_name": "GHOSTCIRCLE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 5,
+      "defense": 40,
+      "stamina": 55
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-02 幽靈元魂",
+      "en-US": "UX-12-02 GHOSTCIRCLE",
+      "ja-JP": "UX-12-02 ゴーストサークル"
+    },
+    "description": {
+      "zh-TW": "UX-12-02 幽靈元魂4-60H中收錄。\n小直徑解沒有任何明顯攻擊刃的設計，遭受攻擊時的能夠減少迴轉力喪失。",
+      "en-US": "Included in UX-12-02 GHOSTCIRCLE 4-60H.\nThe small diameter zero BLADE is designed to reduce stamina loss when attacked by an opponent.",
+      "ja-JP": "UX-12-02 ゴーストサークル4-60Hに収録。\n小径の0枚刃により、相手から攻撃を受けたときのスタミナロスを軽減する設計。"
+    },
+    "blade_id": "BL-PRD-939566-02"
+  },
+  {
+    "id": "UX-12-03",
+    "en_name": "SHINOBISHADOW",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 70,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-03 忍者闇影",
+      "en-US": "UX-12-03 SHINOBISHADOW",
+      "ja-JP": "UX-12-03 シノビシャドウ"
+    },
+    "description": {
+      "zh-TW": "UX-12-03 忍者闇影3-80F中收錄。\n平滑的3枚刃設計，有效的化解對手的攻擊。",
+      "en-US": "Included in UX-12-03 SHINOBISHADOW 3-80F.\nWith a smooth 3-BLADE shape, it is specially designed to deflecting the opponent's attacks.",
+      "ja-JP": "UX-12-03 シノビシャドウ3-80Fに収録。\n滑らかな3枚刃形状で、相手の攻撃を受け流すことに特化した設計。"
+    },
+    "blade_id": "BL-PRD-939566-03"
+  },
+  {
+    "id": "UX-12-04",
+    "en_name": "LEONCLAW",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 40,
+      "defense": 40,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-04 雄獅獵爪",
+      "en-US": "UX-12-04 LEONCLAW",
+      "ja-JP": "UX-12-04 レオンクロー"
+    },
+    "description": {
+      "zh-TW": "UX-12-04 雄獅獵爪0-80E中收錄。\n同時具備攻擊刃與防禦刃，設計上可透過調整射擊方法來發揮不同性能。",
+      "en-US": "Included in UX-12-04 LEONCLAW 0-80E.\nA design that combines offensive and defensive BLADES, allowing for a variety of launching styles.",
+      "ja-JP": "UX-12-04 レオンクロー0-80Eに収録。\n攻撃刃と防御刃を併せ持ち、異なる性能をシュート方法で使い分け可能な設計。"
+    },
+    "blade_id": "BL-PRD-939566-04"
+  },
+  {
+    "id": "UX-12-05",
+    "en_name": "PHOENIXFEATHER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 20,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-05 鳳凰翔羽",
+      "en-US": "UX-12-05 PHOENIXFEATHER",
+      "ja-JP": "UX-12-05 フェニックスフェザー"
+    },
+    "description": {
+      "zh-TW": "UX-12-05 鳳凰翔羽2-60N中收錄。\n3片輕量化上旋刃設計，可展開高速攻擊。",
+      "en-US": "Included in UX-12-05 PHOENIXFEATHER 2-60N.\nThree light-weight upper BLADES allow for quick attacks.",
+      "ja-JP": "UX-12-05 フェニックスフェザー2-60Nに収録。\n3枚の軽量アッパー刃が高速攻撃を生む設計。"
+    },
+    "blade_id": "BL-PRD-939566-05"
+  },
+  {
+    "id": "UX-12-06",
+    "en_name": "WYVERNGALE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 40,
+      "stamina": 50
+    },
+    "rotation": "right",
+    "image": "/images/products/UX12_list.png",
+    "name": {
+      "zh-TW": "UX-12-06 飛龍旋翼",
+      "en-US": "UX-12-06 WYVERNGALE",
+      "ja-JP": "UX-12-06 ワイバーンゲイル"
+    },
+    "description": {
+      "zh-TW": "UX-12-06 飛龍旋翼0-80C中收錄。\n流線型的4片戰刃會減少空氣阻力，擅長持續旋轉。",
+      "en-US": "Included in UX-12-06 WYVERNGALE 0-80C.\nFour streamlined BLADES which reduce air resistance, allowing for sustained spinning.",
+      "ja-JP": "UX-12-06 ワイバーンゲイル0-80Cに収録。\n流線形状の4枚刃が空気抵抗を低減し、回り続けることに優れる。"
+    },
+    "blade_id": "BL-PRD-939566-06"
+  },
+  {
+    "id": "UX-13",
+    "en_name": "GOLEMROCK",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 60,
+      "stamina": 10
+    },
+    "rotation": "right",
+    "image": "/images/products/UX13_list.png",
+    "name": {
+      "zh-TW": "UX-13 魔像奇岩",
+      "en-US": "UX-13 GOLEMROCK",
+      "ja-JP": "UX-13 ゴーレムロック"
+    },
+    "description": {
+      "zh-TW": "UX-13 魔像奇岩1-60UN中收錄。\n具有連續反擊性能的鋼鐵戰刃，同時具備向上的攻擊刃在傾斜時擊退對手。",
+      "en-US": "Included in UX-13 GOLEMROCK 1-60UN.\nIt's BLADE is design to have both continous attached and upward attack when tilted.",
+      "ja-JP": "UX-13 ゴーレムロック1-60UNに収録。\n相手の攻撃を受け止める連打形状の側面と、傾いたときに相手を弾く上方向の打撃面を併せ持つ設計。"
+    },
+    "blade_id": "BL-PRD-939573-00"
+  },
+  {
+    "id": "UX-14",
+    "en_name": "SCORPIOSPEAR",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 25,
+      "defense": 55,
+      "stamina": 30
+    },
+    "rotation": "right",
+    "image": "/images/products/UX14_list.png",
+    "name": {
+      "zh-TW": "UX-14 天蠍長矛",
+      "en-US": "UX-14 SCORPIOSPEAR",
+      "ja-JP": "UX-14 スコーピオスピア"
+    },
+    "description": {
+      "zh-TW": "UX-14 天蠍長矛0-70Z中收錄。\n藉由極限衝擊，將會從防禦型態的六枚戰刃變形成為攻擊型態的三枚戰刃。",
+      "en-US": "Included in UX-14 SCORPIOSPEAR 0-70Z.\nDuring X-DASH, the BLADE transforms from a circular 6-BLADE with high defensive performance to a 3-BLADE with high attack performance.",
+      "ja-JP": "UX-14 スコーピオスピア0-70Zに収録。\nXダッシュによって、いなし防御性能が高い円形6枚刃から攻撃性能の高い3枚刃に変形する。"
+    },
+    "blade_id": "BL-PRD-958499-00"
+  },
+  {
+    "id": "UX-15-01",
+    "en_name": "SHARKSCALE",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 70,
+      "defense": 15,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/UX15_list.png",
+    "name": {
+      "zh-TW": "UX-15-01 鮫鯊狂鱗",
+      "en-US": "UX-15-01 SHARKSCALE",
+      "ja-JP": "UX-15-01 シャークスケイル"
+    },
+    "description": {
+      "zh-TW": "UX-15-01 鮫鯊狂鱗4-50UF中收錄。\n配備多個打擊部位的大型雙戰刃，專門設計用於從低角度發動強烈上勾攻擊。",
+      "en-US": "Included in UX-15-01 SHARKSCALE 4-50UF.\nA large two-bladed BLADE with multiple striking areas, designed specifically for intense uppercut attacks from a low position.",
+      "ja-JP": "UX-15-01 シャークスケイル4-50UFに収録。\n打撃部位を複数備えた大型の2枚刃で、低い位置からの強烈なアッパー攻撃に特化した設計。"
+    },
+    "blade_id": "BL-PRD-982432-01"
+  },
+  {
+    "id": "UX-15-02",
+    "en_name": "TYRANNOROAR",
+    "type": "attack",
+    "tags": [
+      "bx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 28,
+      "stamina": 12
+    },
+    "rotation": "right",
+    "image": "/images/products/UX15_list.png",
+    "name": {
+      "zh-TW": "UX-15-02 暴龍咆哮",
+      "en-US": "UX-15-02 TYRANNOROAR",
+      "ja-JP": "UX-15-02 ティラノロア"
+    },
+    "description": {
+      "zh-TW": "UX-15-02 暴龍咆哮1-70L中收錄。\n以具有重量感的三枚戰刃，擅長強力擊飛對手。",
+      "en-US": "Included in UX-15-02 TYRANNOROAR 1-70L.\nExcellent at strongly repelling opponents due to the three weighted BLADES.",
+      "ja-JP": "UX-15-02 ティラノロア1-70Lに収録。\n重みのある3枚刃により相手を強く弾くことに優れる。"
+    },
+    "blade_id": "BL-PRD-982432-02"
+  },
+  {
+    "id": "UX-15-03",
+    "en_name": "HELLSBRAVEJ",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/UX15_list.png",
+    "name": {
+      "zh-TW": "UX-15-03 惡魔勇氣J",
+      "en-US": "UX-15-03 HELLSBRAVEJ",
+      "ja-JP": "UX-15-03 ヘルズブレイブJ"
+    },
+    "description": {
+      "zh-TW": "UX-15-03 惡魔勇氣J 3-60GF中收錄。\n透過結合上鉤戰刃與連打戰刃，實現了兩種不同攻擊方式。",
+      "en-US": "Included in UX-15-03 HELLSBRAVEJ 3-60GF.\nBy combining the upper BLADE and the rapid-fire BLADE, it is possible to attack in two ways.",
+      "ja-JP": "UX-15-03 ヘルズブレイブJ 3-60GFに収録。\nアッパー刃と連打刃を組み合わせることで、2つの方法による攻撃を可能にした。"
+    },
+    "blade_id": "BL-PRD-982432-03"
+  },
+  {
+    "id": "UX-16-01",
+    "en_name": "CLOCKMIRAGE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 10,
+      "stamina": 80
+    },
+    "rotation": "right",
+    "image": "/images/products/UX16_list.png",
+    "name": {
+      "zh-TW": "UX-16-01 時鐘幻象",
+      "en-US": "UX-16-01 CLOCKMIRAGE",
+      "ja-JP": "UX-16-01 クロックミラージュ"
+    },
+    "description": {
+      "zh-TW": "UX-16-01 時鐘幻象9-65B中收錄。\n採用可產生驚人持久力的圓盤狀60枚鋼鐵戰刃，設計上專注於超長時間的持續旋轉。",
+      "en-US": "Included in UX-16-01 CLOCKMIRAGE 9-65B.\nThe 60-blade disc shape produces incredible endurance, with a design specialised for long-term rotation.",
+      "ja-JP": "UX-16-01 クロックミラージュ9-65Bに収録。\n驚異的な持久力を生み出す円盤形状の60枚刃で、長く回転し続けることに特化した設計。"
+    },
+    "blade_id": "BL-PRD-990154-01"
+  },
+  {
+    "id": "UX-16-02",
+    "en_name": "CLOCKMIRAGE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 10,
+      "stamina": 80
+    },
+    "rotation": "right",
+    "image": "/images/products/UX16_list.png",
+    "name": {
+      "zh-TW": "UX-16-02 時鐘幻象",
+      "en-US": "UX-16-02 CLOCKMIRAGE",
+      "ja-JP": "UX-16-02 クロックミラージュ"
+    },
+    "description": {
+      "zh-TW": "UX-16-02 時鐘幻象9-65B中收錄。\n採用可產生驚人持久力的圓盤狀60枚鋼鐵戰刃，設計上專注於超長時間的持續旋轉。",
+      "en-US": "Included in UX-16-02 CLOCKMIRAGE 9-65B.\nThe 60-blade disc shape produces incredible endurance, with a design specialised for long-term rotation.",
+      "ja-JP": "UX-16-02 クロックミラージュ9-65Bに収録。\n驚異的な持久力を生み出す円盤形状の60枚刃で、長く回転し続けることに特化した設計。"
+    },
+    "blade_id": "BL-PRD-990154-02"
+  },
+  {
+    "id": "UX-16-03",
+    "en_name": "CLOCKMIRAGE",
+    "type": "stamina",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 10,
+      "defense": 10,
+      "stamina": 80
+    },
+    "rotation": "right",
+    "image": "/images/products/UX16_list.png",
+    "name": {
+      "zh-TW": "UX-16-03 時鐘幻象",
+      "en-US": "UX-16-03 CLOCKMIRAGE",
+      "ja-JP": "UX-16-03 クロックミラージュ"
+    },
+    "description": {
+      "zh-TW": "UX-16-03 時鐘幻象9-65B中收錄。\n採用可產生驚人持久力的圓盤狀60枚鋼鐵戰刃，設計上專注於超長時間的持續旋轉。",
+      "en-US": "Included in UX-16-03 CLOCKMIRAGE 9-65B.\nThe 60-blade disc shape produces incredible endurance, with a design specialised for long-term rotation.",
+      "ja-JP": "UX-16-03 クロックミラージュ9-65Bに収録。\n驚異的な持久力を生み出す円盤形状の60枚刃で、長く回転し続けることに特化した設計。"
+    },
+    "blade_id": "BL-PRD-990154-03"
+  },
+  {
+    "id": "UX-18-01",
+    "en_name": "MUMMYCURSE",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 60,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-01 古屍詛咒",
+      "en-US": "UX-18-01 MUMMYCURSE",
+      "ja-JP": "UX-18-01 マミーカース"
+    },
+    "description": {
+      "zh-TW": "UX-18-01 古屍詛咒7-55W中收錄。\n隨迴旋速度改變形狀的戰刃。戰鬥初期以突出的反擊刃反攻，後期則變為近似圓形的防禦形態守住戰局。",
+      "en-US": "Included in UX-18-01 MUMMYCURSE 7-55W.\nA BLADE whose shape changes with rotational speed. In the early stages, it counters with protruding BLADES. In the final stages, it defends with a shape approaching a circle.",
+      "ja-JP": "UX-18-01 マミーカース7-55Wに収録。\n回転速度により形状変化するブレード。序盤は飛び出したカウンター刃で反撃し、終盤は円に近い形状で守り切る。"
+    },
+    "blade_id": "BL-PRD-097167-01"
+  },
+  {
+    "id": "UX-18-02",
+    "en_name": "MUMMYCURSE",
+    "type": "defense",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 30,
+      "defense": 60,
+      "stamina": 20
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-02 古屍詛咒",
+      "en-US": "UX-18-02 MUMMYCURSE",
+      "ja-JP": "UX-18-02 マミーカース"
+    },
+    "description": {
+      "zh-TW": "UX-18-02 古屍詛咒4-60C中收錄。\n隨迴旋速度改變形狀的戰刃。戰鬥初期以突出的反擊刃反攻，後期則變為近似圓形的防禦形態守住戰局。",
+      "en-US": "Included in UX-18-02 MUMMYCURSE 4-60C.\nA BLADE whose shape changes with rotational speed. In the early stages, it counters with protruding BLADES. In the final stages, it defends with a shape approaching a circle.",
+      "ja-JP": "UX-18-02 マミーカース4-60Cに収録。\n回転速度により形状変化するブレード。序盤は飛び出したカウンター刃で反撃し、終盤は円に近い形状で守り切る。"
+    },
+    "blade_id": "BL-PRD-097167-02"
+  },
+  {
+    "id": "UX-18-03",
+    "en_name": "PEGASUSBRUSHM",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 30,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-03 天馬九尾M",
+      "en-US": "UX-18-03 PEGASUSBRUSHM",
+      "ja-JP": "UX-18-03 ペガサスブラッシュM"
+    },
+    "description": {
+      "zh-TW": "UX-18-03 天馬九尾M 3-85W中收錄。\n",
+      "en-US": "Included in UX-18-03 PEGASUSBRUSHM 3-85W.\n",
+      "ja-JP": "UX-18-03 ペガサスブラッシュM 3-85Wに収録。\n"
+    },
+    "blade_id": "BL-PRD-097167-03"
+  },
+  {
+    "id": "UX-18-04",
+    "en_name": "SOLBRAVEC",
+    "type": "attack",
+    "tags": [
+      "cx"
+    ],
+    "stats": {
+      "attack": 55,
+      "defense": 30,
+      "stamina": 15
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-04 焰神勇氣C",
+      "en-US": "UX-18-04 SOLBRAVEC",
+      "ja-JP": "UX-18-04 ソルブレイブC"
+    },
+    "description": {
+      "zh-TW": "UX-18-04 焰神勇氣C 9-70TP中收錄。\n",
+      "en-US": "Included in UX-18-04 SOLBRAVEC 9-70TP.\n",
+      "ja-JP": "UX-18-04 ソルブレイブC 9-70TPに収録。\n"
+    },
+    "blade_id": "BL-PRD-097167-04"
+  },
+  {
+    "id": "UX-18-05",
+    "en_name": "DRANDAGGER",
+    "type": "attack",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-05 蒼龍利刃",
+      "en-US": "UX-18-05 DRANDAGGER",
+      "ja-JP": "UX-18-05 ドランダガー"
+    },
+    "description": {
+      "zh-TW": "UX-18-05 蒼龍利刃7-55G中收錄。\n設有6片攻擊刃，擅長連續攻擊對手。",
+      "en-US": "Included in UX-18-05 DRANDAGGER 7-55G.\nSix attack BLADES make it easier to unleash consecutive attacks.",
+      "ja-JP": "UX-18-05 ドランダガー7-55Gに収録。\n6枚の攻撃刃で相手を連打することに優れる。"
+    },
+    "blade_id": "BL-PRD-097167-05"
+  },
+  {
+    "id": "UX-18-06",
+    "en_name": "WEISSTIGER",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 30,
+      "stamina": 25
+    },
+    "rotation": "right",
+    "image": "/images/products/UX18_list.png",
+    "name": {
+      "zh-TW": "UX-18-06 皓戰猛虎",
+      "en-US": "UX-18-06 WEISSTIGER",
+      "ja-JP": "UX-18-06 ヴァイスタイガー"
+    },
+    "description": {
+      "zh-TW": "UX-18-06 皓戰猛虎4-80LR中收錄。\n結合了擊飛刃、衝擊刃、下壓刃來對應各種性能的設計。",
+      "en-US": "Included in UX-18-06 WEISSTIGER 4-80LR.\nA BLADE that has three functions: upper BLADE, damper BLADE, and smash BLADE to respond to various performances.",
+      "ja-JP": "UX-18-06 ヴァイスタイガー4-80LRに収録。\nアッパー刃・ダンパー刃・スマッシュ刃の3つの性能を併せ持つブレード。"
+    },
+    "blade_id": "BL-PRD-097167-06"
+  },
+  {
+    "id": "UX-19",
+    "en_name": "BULLETGRIFFON",
+    "type": "balance",
+    "tags": [
+      "ux"
+    ],
+    "stats": {
+      "attack": 45,
+      "defense": 45,
+      "stamina": 40
+    },
+    "rotation": "right",
+    "image": "/images/products/UX19_list.png",
+    "name": {
+      "zh-TW": "UX-19 彈丸獅鷲",
+      "en-US": "UX-19 BULLETGRIFFON",
+      "ja-JP": "UX-19 バレットグリフォン"
+    },
+    "description": {
+      "zh-TW": "UX-19 彈丸獅鷲H中收錄。\n固鎖一體型戰刃。在戰鬥中會分離成「彈丸」與「本體」。",
+      "en-US": "Included in UX-19 BULLETGRIFFONH.\nA BLADE with an integrated RATCHET mechanism. During battle, it separates into a ‘BULLET’ and the ‘MAIN UNIT’.",
+      "ja-JP": "UX-19 バレットグリフォンHに収録。\nラチェット一体型のブレード。バトル中に、「バレット」と「本体」に分離する。"
+    },
+    "blade_id": "BL-PRD-096160-00"
+  }
+]

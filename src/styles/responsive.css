@@ -1,0 +1,54 @@
+/* Mobile-first responsive utilities */
+
+/* Touch-friendly tap targets */
+@layer components {
+  .tap-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Container with responsive padding */
+  .container-responsive {
+    @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+  }
+  
+  /* Card with responsive sizing */
+  .card-responsive {
+    @apply p-4 sm:p-6 lg:p-8 rounded-lg sm:rounded-xl;
+  }
+  
+  /* Text sizing */
+  .text-responsive-sm {
+    @apply text-sm sm:text-base;
+  }
+  
+  .text-responsive-base {
+    @apply text-base sm:text-lg;
+  }
+  
+  .text-responsive-lg {
+    @apply text-lg sm:text-xl lg:text-2xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-xl sm:text-2xl lg:text-3xl;
+  }
+  
+  /* Hide on mobile */
+  .hide-mobile {
+    @apply hidden sm:block;
+  }
+  
+  /* Hide on desktop */
+  .hide-desktop {
+    @apply block lg:hidden;
+  }
+}
+
+/* Safe area insets for iOS */
+@supports (padding: max(0px)) {
+  .safe-area-inset {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
