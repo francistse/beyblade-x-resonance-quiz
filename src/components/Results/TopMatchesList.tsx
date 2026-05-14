@@ -12,15 +12,19 @@ function getDatabaseUrl(bladeId: string | null | undefined): string | null {
 
 interface TopMatchesListProps {
   matches: BeybladeMatch[];
+  /** i18n key for section title (default: result.topMatches) */
+  titleKey?: string;
+  /** Added to displayed rank (e.g. 1 when listing matches 2–3 only) */
+  rankOffset?: number;
 }
 
-export function TopMatchesList({ matches }: TopMatchesListProps) {
+export function TopMatchesList({ matches, titleKey = 'result.topMatches', rankOffset = 0 }: TopMatchesListProps) {
   const { t, i18n } = useTranslation();
   const lang = i18n.language as string;
   
   return (
     <div className="w-full max-w-md mx-auto">
-      <h3 className="text-lg font-bold mb-4">{t('result.topMatches')}</h3>
+      <h3 className="text-lg font-bold mb-4">{t(titleKey)}</h3>
       <div className="space-y-3">
         {matches.map((match, index) => {
           const name = match.beyblade.name[lang] || match.beyblade.en_name;
@@ -28,7 +32,7 @@ export function TopMatchesList({ matches }: TopMatchesListProps) {
           return (
             <BeybladeImagePopup key={match.beyblade.id} beyblade={match.beyblade}>
               <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-100 transition-colors">
-                <span className="text-lg font-bold text-gray-400 w-8">#{index + 1}</span>
+                <span className="text-lg font-bold text-gray-400 w-8">#{index + 1 + rankOffset}</span>
                 <ImageWithFallback
                   src={match.beyblade.image}
                   alt={name}

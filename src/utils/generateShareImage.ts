@@ -1,26 +1,39 @@
 import html2canvas from 'html2canvas';
 
-/** html2canvas cannot parse oklch(); the canvas API resolves it to rgb/rgba. */
-function replaceOklchWithRgbInCssValue(cssValue: string, win: Window): string {
-  const ctx = win.document.createElement('canvas').getContext('2d');
-  if (!ctx) return cssValue;
-  // Fresh RegExp each call — a shared /g regex would advance lastIndex across elements.
-  return cssValue.replace(new RegExp('oklch\\([^)]+\\)', 'gi'), (match) => {
-    try {
-      ctx.fillStyle = match;
-      const resolved = ctx.fillStyle;
-      if (typeof resolved === 'string' && !/oklch\s*\(/i.test(resolved)) {
-        return resolved;
-      }
-    } catch {
-      /* keep original */
-    }
-    return match;
-  });
+/** html2canvas cannot parse modern CSS color spaces; canvas serializes them to rgb/rgba. */
+const MODERN_COLOR_PATTERNS = [
+  new RegExp('oklch\\([^)]+\\)', 'gi'),
+  new RegExp('lab\\([^)]+\\)', 'gi'),
+  new RegExp('lch\\([^)]+\\)', 'gi'),
+];
+
+function isResolvedCssColor(s: string): boolean {
+  return !/\boklch\s*\(|\blab\s*\(|\blch\s*\(/i.test(s);
 }
 
-/** Computed styles Tailwind v4 often emits as oklch inside gradients and shadows. */
-const PROPERTIES_TO_DE_OKLCH = [
+function replaceModernCssColors(cssValue: string, win: Window): string {
+  const ctx = win.document.createElement('canvas').getContext('2d');
+  if (!ctx) return cssValue;
+  let out = cssValue;
+  for (const re of MODERN_COLOR_PATTERNS) {
+    out = out.replace(re, (match) => {
+      try {
+        ctx.fillStyle = match;
+        const resolved = ctx.fillStyle;
+        if (typeof resolved === 'string' && isResolvedCssColor(resolved)) {
+          return resolved;
+        }
+      } catch {
+        /* keep token */
+      }
+      return match;
+    });
+  }
+  return out;
+}
+
+/** Tailwind v4 often emits oklch/lab inside gradients and shadows. */
+const PROPERTIES_TO_NORMALIZE = [
   'color',
   'background-color',
   'background-image',
@@ -37,20 +50,20 @@ const PROPERTIES_TO_DE_OKLCH = [
   'caret-color',
 ];
 
-function convertOklchToRgbInDocument(doc: Document) {
+function convertModernColorsInDocument(doc: Document) {
   const win = doc.defaultView;
   if (!win) return;
 
-  const allElements = doc.querySelectorAll('*');
-  allElements.forEach((el) => {
+  doc.querySelectorAll('*').forEach((el) => {
     const style = win.getComputedStyle(el as Element);
     if (!style) return;
 
-    for (const prop of PROPERTIES_TO_DE_OKLCH) {
+    for (const prop of PROPERTIES_TO_NORMALIZE) {
       const value = style.getPropertyValue(prop).trim();
-      if (!value || !value.toLowerCase().includes('oklch')) continue;
-      const converted = replaceOklchWithRgbInCssValue(value, win);
-      if (converted !== value && !converted.toLowerCase().includes('oklch')) {
+      if (!value) continue;
+      if (!/\boklch\s*\(|\blab\s*\(|\blch\s*\(/i.test(value)) continue;
+      const converted = replaceModernCssColors(value, win);
+      if (converted !== value && isResolvedCssColor(converted)) {
         (el as HTMLElement).style.setProperty(prop, converted);
       }
     }
@@ -61,10 +74,8 @@ export async function generateShareImage(
   element: HTMLElement
 ): Promise<Blob | null> {
   try {
-    // Preload background images from CSS
     const bgImagePromises: Promise<void>[] = [];
-    const elementsWithBg = element.querySelectorAll('*');
-    elementsWithBg.forEach((el) => {
+    element.querySelectorAll('*').forEach((el) => {
       const style = window.getComputedStyle(el);
       const bgImage = style.backgroundImage;
       if (bgImage && bgImage !== 'none' && bgImage.includes('url')) {
@@ -84,10 +95,8 @@ export async function generateShareImage(
       }
     });
 
-    // Wait for all background images to load
     await Promise.all(bgImagePromises);
 
-    // Ensure all <img> elements are loaded before capturing
     const imgPromises = Array.from(element.querySelectorAll('img')).map((img) => {
       if (img.complete) return Promise.resolve();
       return new Promise<void>((resolve) => {
@@ -97,15 +106,12 @@ export async function generateShareImage(
     });
     await Promise.all(imgPromises);
 
-    // Wait for fonts to load
     if (document.fonts && document.fonts.ready) {
       await document.fonts.ready;
     }
 
-    // Small delay to ensure everything is fully rendered
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise((resolve) => setTimeout(resolve, 500));
 
-    // Convert oklch colors to rgb in the cloned document (html2canvas doesn't support oklch)
     const canvas = await html2canvas(element, {
       backgroundColor: null,
       scale: 2,
@@ -114,15 +120,13 @@ export async function generateShareImage(
       logging: false,
       imageTimeout: 15000,
       onclone: (clonedDoc) => {
-        // Ensure the cloned element is visible and properly sized
-        const clonedElement = clonedDoc.querySelector('[data-share-card]');
-        if (clonedElement) {
-          (clonedElement as HTMLElement).style.visibility = 'visible';
-          (clonedElement as HTMLElement).style.opacity = '1';
-          
-          // Convert oklch colors to rgb in the cloned document
-          convertOklchToRgbInDocument(clonedDoc);
+        const clonedCard = clonedDoc.querySelector('[data-share-card]');
+        if (clonedCard) {
+          (clonedCard as HTMLElement).style.visibility = 'visible';
+          (clonedCard as HTMLElement).style.opacity = '1';
         }
+        // Whole clone: Recharts / inherited rules may still use oklch outside the card root.
+        convertModernColorsInDocument(clonedDoc);
       },
     });
 

@@ -1,14 +1,18 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { QuizResult } from '../types';
-import { BeybladeCard } from '../components/Results/BeybladeCard';
-import { RadarChart } from '../components/Results/RadarChart';
-import { AwakeningKeyword } from '../components/Results/AwakeningKeyword';
 import { TopMatchesList } from '../components/Results/TopMatchesList';
 import { ShareCard } from '../components/Share/ShareCard';
 import { ShareButtons } from '../components/Share/ShareButtons';
 import { generateShareImage, downloadImage } from '../utils/generateShareImage';
 import { publicUrl } from '../utils/publicUrl';
+
+const DB_BASE_URL = 'https://beyblade.phstudy.org';
+
+function getDatabaseUrl(bladeId: string | null | undefined): string | null {
+  if (!bladeId) return null;
+  return `${DB_BASE_URL}/?part=${encodeURIComponent(bladeId)}&cat=Series`;
+}
 
 interface ResultPageProps {
   result: QuizResult;
@@ -23,7 +27,11 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadStatus, setDownloadStatus] = useState<'idle' | 'success' | 'error'>('idle');
-  
+
+  const topBlade = result.topMatches[0].beyblade;
+  const dbUrl = getDatabaseUrl(topBlade.blade_id);
+  const otherMatches = result.topMatches.slice(1);
+
   useEffect(() => {
     if (!audioRef.current) {
       audioRef.current = new Audio(RESULT_SOUND_PATH);
@@ -31,7 +39,7 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
     audioRef.current.currentTime = 0;
     audioRef.current.play().catch(() => {});
   }, []);
-  
+
   useEffect(() => {
     if (downloadStatus !== 'idle') {
       const timer = setTimeout(() => {
@@ -40,10 +48,10 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
       return () => clearTimeout(timer);
     }
   }, [downloadStatus]);
-  
+
   const handleDownload = async () => {
     if (!shareCardRef.current || isDownloading) return;
-    
+
     setIsDownloading(true);
     try {
       const blob = await generateShareImage(shareCardRef.current);
@@ -61,43 +69,30 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
       setIsDownloading(false);
     }
   };
-  
+
   const shareUrl = window.location.href;
-  
+
   return (
-    <div className="min-h-screen bg-gray-50 pb-28 pt-8 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800 drop-shadow-sm">
-          {t('result.title')}
-        </h1>
-        
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <BeybladeCard
-              beyblade={result.topMatches[0].beyblade}
-              fitPercentage={result.topMatches[0].fitPercentage}
-            />
-            <div className="mt-6">
-              <AwakeningKeyword keyword={result.awakeningKeyword} />
-            </div>
+    <div className="min-h-screen bg-gray-50 pb-32 pt-6 px-4">
+      <div className="max-w-lg mx-auto">
+        <ShareCard ref={shareCardRef} result={result} />
+
+        {dbUrl && (
+          <a
+            href={dbUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 block text-center text-sm font-medium text-blue-600 hover:text-blue-800 underline-offset-2 hover:underline"
+          >
+            {t('result.viewInDatabase')}
+          </a>
+        )}
+
+        {otherMatches.length > 0 && (
+          <div className="mt-10">
+            <TopMatchesList matches={otherMatches} titleKey="result.otherMatches" rankOffset={1} />
           </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-4">{t('result.statsComparison')}</h3>
-            <RadarChart
-              userStats={result.userVector}
-              beybladeStats={result.topMatches[0].beyblade.stats}
-            />
-          </div>
-        </div>
-        
-        <div className="mt-8">
-          <TopMatchesList matches={result.topMatches} />
-        </div>
-        
-        <div className="mt-8 flex justify-center">
-          <ShareCard ref={shareCardRef} result={result} />
-        </div>
+        )}
       </div>
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-t from-black/90 via-black/80 to-transparent pt-8 pb-4 px-4">
@@ -110,7 +105,7 @@ export function ResultPage({ result, onRetry }: ResultPageProps) {
             🔄 {t('common.retry')}
           </button>
         </div>
-        
+
         {downloadStatus === 'success' && (
           <div className="mt-4 text-center">
             <span className="px-4 py-2 rounded-lg bg-green-500/90 text-white font-bold text-sm shadow-lg animate-bounce">

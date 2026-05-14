@@ -47,7 +47,9 @@ export function AboutSection() {
           <h2 className="about-heading">{t('about.acknowledgments.title')}</h2>
           <ul className="about-credits">
             <li>
-              <strong>TAKARA TOMY</strong> — {t('about.acknowledgments.takaratomy')}
+            <a href="https://beyblade.takaratomy.co.jp/beyblade-x/" target="_blank" rel="noopener noreferrer">
+                TAKARA TOMY — {t('about.acknowledgments.takaratomy')}
+              </a>{' '}
             </li>
             <li>
               <a href="https://beyblade.phstudy.org/" target="_blank" rel="noopener noreferrer">

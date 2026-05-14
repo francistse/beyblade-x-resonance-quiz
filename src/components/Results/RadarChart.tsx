@@ -6,10 +6,13 @@ import { STAT_RANGES_SERIES } from '../../data/statRanges';
 interface RadarChartProps {
   userStats: Stats;
   beybladeStats: Stats;
+  /** Compact chart for dark card backgrounds (share image / result card). */
+  variant?: 'default' | 'onDark';
 }
 
-export function RadarChart({ userStats, beybladeStats }: RadarChartProps) {
+export function RadarChart({ userStats, beybladeStats, variant = 'default' }: RadarChartProps) {
   const { t } = useTranslation();
+  const onDark = variant === 'onDark';
 
   const data = [
     {
@@ -38,18 +41,21 @@ export function RadarChart({ userStats, beybladeStats }: RadarChartProps) {
     },
   ];
 
+  const chartHeight = onDark ? 200 : 300;
+  const outerRadius = onDark ? '70%' : '75%';
+
   return (
-    <ResponsiveContainer width="100%" height={300}>
-      <RechartsRadarChart data={data} cx="50%" cy="50%" outerRadius="75%">
-        <PolarGrid stroke="#e5e7eb" />
+    <ResponsiveContainer width="100%" height={chartHeight}>
+      <RechartsRadarChart data={data} cx="50%" cy="50%" outerRadius={outerRadius}>
+        <PolarGrid stroke={onDark ? 'rgba(255,255,255,0.22)' : '#e5e7eb'} />
         <PolarAngleAxis
           dataKey="subject"
-          tick={{ fontSize: 13, fill: '#374151' }}
+          tick={{ fontSize: onDark ? 11 : 13, fill: onDark ? '#ffffff' : '#374151' }}
         />
         <PolarRadiusAxis
           angle={90}
           domain={[0, 100]}
-          tick={{ fontSize: 10, fill: '#9ca3af' }}
+          tick={{ fontSize: onDark ? 9 : 10, fill: onDark ? 'rgba(255,255,255,0.7)' : '#9ca3af' }}
           tickCount={5}
         />
         <Tooltip
@@ -60,24 +66,29 @@ export function RadarChart({ userStats, beybladeStats }: RadarChartProps) {
             }
             return `${props.payload.beybladeRaw} / ${props.payload.max}`;
           }) as any}
+          contentStyle={
+            onDark
+              ? { background: 'rgba(15,23,42,0.95)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 8, color: '#fff' }
+              : undefined
+          }
         />
         <Radar
           name={t('result.radar.user')}
           dataKey="user"
-          stroke="#3B82F6"
-          fill="#3B82F6"
-          fillOpacity={0.2}
+          stroke={onDark ? '#93c5fd' : '#3B82F6'}
+          fill={onDark ? '#93c5fd' : '#3B82F6'}
+          fillOpacity={onDark ? 0.35 : 0.2}
           strokeWidth={2}
         />
         <Radar
           name={t('result.radar.beyblade')}
           dataKey="beyblade"
-          stroke="#10B981"
-          fill="#10B981"
-          fillOpacity={0.2}
+          stroke={onDark ? '#6ee7b7' : '#10B981'}
+          fill={onDark ? '#6ee7b7' : '#10B981'}
+          fillOpacity={onDark ? 0.35 : 0.2}
           strokeWidth={2}
         />
-        <Legend />
+        <Legend wrapperStyle={onDark ? { color: '#ffffff', fontSize: 12 } : undefined} />
       </RechartsRadarChart>
     </ResponsiveContainer>
   );

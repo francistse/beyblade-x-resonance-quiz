@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:run": "vitest run",
+    "verify:download": "node scripts/verify-result-download.mjs",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {

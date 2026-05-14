@@ -67,3 +67,6 @@ coverage/
 
 # Vite
 *.local
+
+# Local Puppeteer download verification
+.verify-downloads/
