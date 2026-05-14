@@ -3,12 +3,13 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '../ui/Button';
 import logo from '../../assets/cmn_logo.svg';
 import threadsIcon from '../../assets/threads.webp';
+import { publicUrl } from '../../utils/publicUrl';
 
 interface QuizIntroProps {
   onStart: () => void;
 }
 
-const START_SOUND_PATH = '/sounds/794843__sadiquecat__beyblade-x-phoenix-wing-quiz-start.wav';
+const START_SOUND_PATH = publicUrl('/sounds/794843__sadiquecat__beyblade-x-phoenix-wing-quiz-start.wav');
 
 export function QuizIntro({ onStart }: QuizIntroProps) {
   const { t } = useTranslation();

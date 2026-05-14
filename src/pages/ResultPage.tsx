@@ -8,13 +8,14 @@ import { TopMatchesList } from '../components/Results/TopMatchesList';
 import { ShareCard } from '../components/Share/ShareCard';
 import { ShareButtons } from '../components/Share/ShareButtons';
 import { generateShareImage, downloadImage } from '../utils/generateShareImage';
+import { publicUrl } from '../utils/publicUrl';
 
 interface ResultPageProps {
   result: QuizResult;
   onRetry: () => void;
 }
 
-const RESULT_SOUND_PATH = '/sounds/787800__sadiquecat__beyblade-under-arena-result.wav';
+const RESULT_SOUND_PATH = publicUrl('/sounds/787800__sadiquecat__beyblade-under-arena-result.wav');
 
 export function ResultPage({ result, onRetry }: ResultPageProps) {
   const { t } = useTranslation();

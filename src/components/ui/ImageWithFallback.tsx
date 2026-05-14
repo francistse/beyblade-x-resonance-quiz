@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { publicUrl } from '../../utils/publicUrl';
 
 interface ImageWithFallbackProps {
   src: string;
@@ -17,6 +18,7 @@ export function ImageWithFallback({
 }: ImageWithFallbackProps) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
+  const resolvedSrc = publicUrl(error ? fallback : src);
   
   return (
     <div className={`relative ${className}`}>
@@ -26,7 +28,7 @@ export function ImageWithFallback({
         </div>
       )}
       <img
-        src={error ? fallback : src}
+        src={resolvedSrc}
         alt={alt}
         className={`${className} ${loading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
         onError={() => setError(true)}
